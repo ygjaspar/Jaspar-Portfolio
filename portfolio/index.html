@@ -12,6 +12,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="https://jaspar-yg-portfolio-public.onrender.com/og.png">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="news.css">
   </head>
   <body>
     <main id="top">
@@ -30,6 +31,7 @@
           <a href="#credentials">Credentials</a>
           <a href="#resolution-studio">Credit Studio</a>
           <a href="#daily-wisdom">Daily Wisdom</a>
+          <a href="#daily-news">News Brief</a>
         </nav>
         <a class="header-link glass-button" href="https://www.linkedin.com/in/jaspar-y-22649a32/">
           LinkedIn <span>↗</span>
@@ -87,6 +89,47 @@
         <div class="wisdom-meta">
           <span class="date-pill glass-button" id="wisdomDate">▣ Today</span>
           <span class="daily-pill glass-button"><i></i> Changes automatically</span>
+        </div>
+      </section>
+
+      <section class="news-brief glass section-shell" id="daily-news" aria-labelledby="newsBriefTitle">
+        <div class="news-brief-head">
+          <div>
+            <p class="eyebrow">Banking · Economy · Markets</p>
+            <h2 id="newsBriefTitle">Daily News Brief</h2>
+          </div>
+          <div class="news-brief-status">
+            <span id="newsUpdated">Loading today’s brief…</span>
+            <button class="news-pause glass-button" id="newsPause" type="button" aria-pressed="false">Pause</button>
+          </div>
+        </div>
+
+        <article class="news-slide" id="newsSlide" aria-live="polite" aria-busy="true">
+          <div class="news-image-wrap">
+            <img id="newsImage" alt="" hidden>
+            <div class="news-image-fallback" id="newsImageFallback">
+              <span>DN</span>
+              <small>Daily News Brief</small>
+            </div>
+            <span class="news-image-credit">Article image</span>
+          </div>
+          <div class="news-copy">
+            <div class="news-meta-line">
+              <span id="newsCategory">Daily update</span>
+              <time id="newsDate">Today</time>
+            </div>
+            <h3 id="newsHeadline">Preparing the latest business news</h3>
+            <p id="newsSummary">The latest verified headlines and short summaries will appear here.</p>
+            <a id="newsLink" class="news-source-link" href="https://www.thehindubusinessline.com/" target="_blank" rel="noreferrer">Read article <span>↗</span></a>
+          </div>
+        </article>
+
+        <div class="news-controls" aria-label="Daily news controls">
+          <button class="news-arrow glass-button" id="newsPrevious" type="button" aria-label="Previous article">←</button>
+          <div class="news-dots" id="newsDots" aria-label="Choose an article"></div>
+          <button class="news-arrow glass-button" id="newsNext" type="button" aria-label="Next article">→</button>
+          <div class="news-timer" aria-hidden="true"><span id="newsProgress"></span></div>
+          <p><span id="newsPosition">—</span> · Next article in 30 seconds</p>
         </div>
       </section>
 
@@ -329,6 +372,139 @@
           fallback.hidden = false;
           fallback.textContent = item.name.split(" ").map(part => part[0]).join("").slice(0, 2);
         });
+      })();
+
+      (() => {
+        const intervalMs = 30000;
+        const section = document.getElementById("daily-news");
+        const slide = document.getElementById("newsSlide");
+        const image = document.getElementById("newsImage");
+        const fallback = document.getElementById("newsImageFallback");
+        const category = document.getElementById("newsCategory");
+        const date = document.getElementById("newsDate");
+        const headline = document.getElementById("newsHeadline");
+        const summary = document.getElementById("newsSummary");
+        const link = document.getElementById("newsLink");
+        const dots = document.getElementById("newsDots");
+        const position = document.getElementById("newsPosition");
+        const pause = document.getElementById("newsPause");
+        const progress = document.getElementById("newsProgress");
+        const updated = document.getElementById("newsUpdated");
+        const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+        let news = [];
+        let current = 0;
+        let timer;
+        let paused = reduceMotion;
+
+        const formatDate = (value, includeTime = false) => {
+          const parsed = new Date(value);
+          if (Number.isNaN(parsed.getTime())) return value || "Today";
+          const options = { day: "numeric", month: "long", year: "numeric" };
+          if (includeTime) Object.assign(options, { hour: "numeric", minute: "2-digit" });
+          return parsed.toLocaleString("en-IN", options);
+        };
+
+        const restartProgress = () => {
+          progress.classList.remove("is-running");
+          void progress.offsetWidth;
+          if (!paused && news.length > 1) progress.classList.add("is-running");
+        };
+
+        const schedule = () => {
+          window.clearTimeout(timer);
+          restartProgress();
+          if (!paused && news.length > 1) timer = window.setTimeout(() => show(current + 1), intervalMs);
+        };
+
+        const show = (index) => {
+          if (!news.length) return;
+          current = (index + news.length) % news.length;
+          const item = news[current];
+          slide.classList.remove("is-changing");
+          void slide.offsetWidth;
+          slide.classList.add("is-changing");
+          image.hidden = !item.image;
+          fallback.hidden = Boolean(item.image);
+          image.src = item.image || "";
+          image.alt = item.image_alt || `Article image for ${item.title}`;
+          category.textContent = item.category;
+          date.textContent = formatDate(item.date);
+          date.dateTime = item.date;
+          headline.textContent = item.title;
+          summary.textContent = item.summary;
+          link.href = item.url;
+          position.textContent = `${current + 1} of ${news.length}`;
+          [...dots.children].forEach((dot, dotIndex) => {
+            dot.classList.toggle("is-active", dotIndex === current);
+            dot.setAttribute("aria-current", dotIndex === current ? "true" : "false");
+          });
+          schedule();
+        };
+
+        const installDots = () => {
+          dots.replaceChildren();
+          news.forEach((item, index) => {
+            const dot = document.createElement("button");
+            dot.type = "button";
+            dot.setAttribute("aria-label", `Show article ${index + 1}: ${item.title}`);
+            dot.addEventListener("click", () => show(index));
+            dots.appendChild(dot);
+          });
+        };
+
+        const showError = () => {
+          slide.setAttribute("aria-busy", "false");
+          updated.textContent = "Feed temporarily unavailable";
+          headline.textContent = "Today’s news brief could not be loaded";
+          summary.textContent = "Please use the article link to visit the source directly and try this page again shortly.";
+          link.href = "https://www.thehindubusinessline.com/";
+          pause.disabled = true;
+        };
+
+        image.addEventListener("error", () => {
+          image.hidden = true;
+          fallback.hidden = false;
+        });
+        document.getElementById("newsPrevious").addEventListener("click", () => show(current - 1));
+        document.getElementById("newsNext").addEventListener("click", () => show(current + 1));
+        pause.addEventListener("click", () => {
+          paused = !paused;
+          pause.textContent = paused ? "Resume" : "Pause";
+          pause.setAttribute("aria-pressed", paused ? "true" : "false");
+          schedule();
+        });
+        section.addEventListener("mouseenter", () => {
+          if (!paused) window.clearTimeout(timer);
+          progress.classList.remove("is-running");
+        });
+        section.addEventListener("mouseleave", schedule);
+        section.addEventListener("focusin", () => {
+          if (!paused) window.clearTimeout(timer);
+          progress.classList.remove("is-running");
+        });
+        section.addEventListener("focusout", (event) => {
+          if (!section.contains(event.relatedTarget)) schedule();
+        });
+
+        if (reduceMotion) {
+          pause.textContent = "Resume";
+          pause.setAttribute("aria-pressed", "true");
+        }
+
+        fetch(`news.json?v=${Date.now()}`, { cache: "no-store" })
+          .then((response) => {
+            if (!response.ok) throw new Error(`HTTP ${response.status}`);
+            return response.json();
+          })
+          .then((payload) => {
+            news = Array.isArray(payload.articles) ? payload.articles.filter((item) => item.title && item.summary && item.url) : [];
+            if (!news.length) throw new Error("No valid articles");
+            updated.textContent = `Updated ${formatDate(payload.updated_at, true)}`;
+            installDots();
+            slide.setAttribute("aria-busy", "false");
+            show(0);
+          })
+          .catch(showError);
       })();
     </script>
   </body>
