@@ -1,7 +1,52 @@
 {
-  "updated_at": "2026-08-15T09:29:28+05:30",
+  "updated_at": "2026-08-16T09:34:50+05:30",
   "source": "The Hindu BusinessLine",
   "articles": [
+    {
+      "category": "Money & Banking",
+      "date": "2026-08-15",
+      "title": "PhonePe widens lead as UPI transactions climb to 23.66 billion in July",
+      "summary": "Paytm remained the third-largest player. Its monthly transaction count increased to 1.90 billion from 1.80 billion in June",
+      "url": "https://www.thehindubusinessline.com/money-and-banking/phonepe-widens-lead-as-upi-transactions-climb-to-2366-billion-in-july/article71350076.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/ae5w02/article71350102.ece/alternates/LANDSCAPE_1200/PhonePes-ShareG9QFU4ST5.4.jpg.jpg",
+      "image_alt": "Article image for PhonePe widens lead as UPI transactions climb to 23.66 billion in July"
+    },
+    {
+      "category": "Companies",
+      "date": "2026-08-16",
+      "title": "NMDC Q1 results: Net profit up 2% to ₹2,005.71 cr",
+      "summary": "During April-June, the company increased its total income to ₹7,142.54 crore, up 1.5%.",
+      "url": "https://www.thehindubusinessline.com/companies/nmdc-q1-results-net-profit-up-2-to-200571-cr/article71351948.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/wv7636/article71351953.ece/alternates/LANDSCAPE_1200/iStock-1205581593.jpg",
+      "image_alt": "Article image for NMDC Q1 results: Net profit up 2% to ₹2,005.71 cr"
+    },
+    {
+      "category": "Economy",
+      "date": "2026-08-15",
+      "title": "Indian textile makers face margin pressure from higher wages and raw material costs",
+      "summary": "Higher labour costs and rising cotton, yarn and petrochemical prices are forcing textile makers to absorb inflation and rethink expansion plans",
+      "url": "https://www.thehindubusinessline.com/economy/indian-textile-makers-face-margin-pressure-from-higher-wages-and-raw-material-costs/article71349517.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/s2oe0n/article71349720.ece/alternates/LANDSCAPE_1200/garment%20stitching%203.jpg",
+      "image_alt": "Article image for Indian textile makers face margin pressure from higher wages and raw material costs"
+    },
+    {
+      "category": "Markets",
+      "date": "2026-08-15",
+      "title": "Bullion Cues: Prices could soften",
+      "summary": "Traders can initiate fresh shorts",
+      "url": "https://www.thehindubusinessline.com/portfolio/commodity-analysis/bullion-cues-prices-could-soften/article71348580.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/yze982/article71349608.ece/alternates/LANDSCAPE_1200/Investments-in-GDUGC3S7F.4.jpg.jpg",
+      "image_alt": "Article image for Bullion Cues: Prices could soften"
+    },
+    {
+      "category": "Policy",
+      "date": "2026-08-15",
+      "title": "Department of Atomic Energy releases draft rules of SHANTI Act",
+      "summary": "Draft rules state that financial security for nuclear damage has to remain in place till the removal of all spent fuel from the storage pool concerned",
+      "url": "https://www.thehindubusinessline.com/economy/policy/department-of-atomic-energy-releases-draft-rules-of-shanti-act/article71349074.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/2szhty/article71349083.ece/alternates/LANDSCAPE_1200/iStock-1141724184.jpg",
+      "image_alt": "Article image for Department of Atomic Energy releases draft rules of SHANTI Act"
+    },
     {
       "category": "Money & Banking",
       "date": "2026-08-15",
@@ -13,30 +58,30 @@
     },
     {
       "category": "Companies",
-      "date": "2026-08-15",
-      "title": "Redcliffe Labs, Skyroot take diagnostic research to space",
-      "summary": "The maiden initiative, DRIFT-1, taken onboard Skyroot’s mission, will test Redcliffe Labs’ dry diagnostic reagents in Low Earth Orbit for 90 days, comparing performance against an identical ground control",
-      "url": "https://www.thehindubusinessline.com/info-tech/redcliffe-labs-skyroot-take-diagnostic-research-to-space/article71346819.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/9kwy3c/article71333466.ece/alternates/LANDSCAPE_1200/TB_DIAGNOSIS1.jpg",
-      "image_alt": "Article image for Redcliffe Labs, Skyroot take diagnostic research to space"
+      "date": "2026-08-16",
+      "title": "Patanjali Foods Q1 results: Profit rises 86% to ₹336 cr",
+      "summary": "Total income rose to ₹11,341.89 crore during the first quarter of this fiscal.",
+      "url": "https://www.thehindubusinessline.com/companies/patanjali-foods-q1-results-profit-rises-86-to-336-cr/article71351932.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/tz52yh/article71351944.ece/alternates/LANDSCAPE_1200/2023-07-12T135049Z_2097715526_RC2O12AW5JWA_RTRMADP_3_PATANJALI-STAKE.JPG",
+      "image_alt": "Article image for Patanjali Foods Q1 results: Profit rises 86% to ₹336 cr"
     },
     {
       "category": "Economy",
       "date": "2026-08-15",
-      "title": "PM Modi presents ‘Saptdharas’ on 80th Independence Day to boost efforts towards Viksit Bharat by 2047",
-      "summary": "India aims to make five nuclear reactors operational in this decade, says Modi",
+      "title": "PM Modi invokes ‘Shakti ki Saptdharas’ to boost Viksit Bharat vision",
+      "summary": "India aims to make five nuclear reactors operational in this decade, says PM Modi",
       "url": "https://www.thehindubusinessline.com/economy/pm-modi-presents-saptdharas-on-80th-independence-day-to-boost-efforts-towards-viksit-bharat-by-2047/article71348418.ece",
       "image": "https://bl-i.thgim.com/public/incoming/1lyci5/article71348426.ece/alternates/LANDSCAPE_1200/PTI08_15_2026_000047B.jpg",
-      "image_alt": "Article image for PM Modi presents ‘Saptdharas’ on 80th Independence Day to boost efforts towards Viksit Bharat by 2047"
+      "image_alt": "Article image for PM Modi invokes ‘Shakti ki Saptdharas’ to boost Viksit Bharat vision"
     },
     {
       "category": "Markets",
-      "date": "2026-08-14",
-      "title": "‘Gold can become a key pillar of India’s growth story’",
-      "summary": "After an exceptional rally for the last two years and early 2026, gold prices moderated in Q2, though they remained elevated by 59% year-on-year",
-      "url": "https://www.thehindubusinessline.com/markets/gold/gold-can-become-a-key-pillar-of-indias-growth-story/article71345065.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/ze4ptu/article71346887.ece/alternates/LANDSCAPE_1200/20260804646L.jpg",
-      "image_alt": "Article image for ‘Gold can become a key pillar of India’s growth story’"
+      "date": "2026-08-15",
+      "title": "Crude Check: Set to consolidate",
+      "summary": "Key levels are ₹7,400 and ₹8,000",
+      "url": "https://www.thehindubusinessline.com/portfolio/commodity-analysis/crude-check-set-to-consolidate/article71348606.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/4bdwv1/article71349584.ece/alternates/LANDSCAPE_1200/Oilprices.jpg",
+      "image_alt": "Article image for Crude Check: Set to consolidate"
     },
     {
       "category": "Policy",
@@ -59,56 +104,11 @@
     {
       "category": "Companies",
       "date": "2026-08-15",
-      "title": "Mahindra targets doubling of lifestyle pick-up market with sub-₹20-lakh Scorpio Lifestyler",
-      "summary": "Mahindra is betting that aggressive pricing and changing recreational lifestyles can more than double India’s lifestyle pick-up market to close to 10,000 units annually, with the Scorpio Lifestyler set to launch by April 2027 at below ₹19.79 lakh",
-      "url": "https://www.thehindubusinessline.com/companies/mahindra-targets-doubling-of-lifestyle-pick-up-market-with-sub-20-lakh-scorpio-lifestyler/article71347193.ece",
-      "image": "https://bl-i.thgim.com/public/todays-paper/tp-news/is1i2h/article71342841.ece/alternates/LANDSCAPE_1200/India-lifestyleGE9GD0L1Q.4.jpg.jpg",
-      "image_alt": "Article image for Mahindra targets doubling of lifestyle pick-up market with sub-₹20-lakh Scorpio Lifestyler"
-    },
-    {
-      "category": "Economy",
-      "date": "2026-08-15",
-      "title": "Southern Railways’ Chennai division crosses ₹5,000 crore earnings milestone in FY26",
-      "summary": "The Chennai division recorded total earnings of ₹5,038.30 crores in FY26, thus registering a 9% growth over the previous year: Shailendra Singh",
-      "url": "https://www.thehindubusinessline.com/economy/logistics/southern-railways-chennai-division-crosses-5000-crore-earnings-milestone-in-fy26/article71346670.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/ppm414/article71153655.ece/alternates/LANDSCAPE_1200/10505_3_4_2026_18_42_11_2_IMG_0273.JPEG",
-      "image_alt": "Article image for Southern Railways’ Chennai division crosses ₹5,000 crore earnings milestone in FY26"
-    },
-    {
-      "category": "Markets",
-      "date": "2026-08-14",
-      "title": "Q1 Results Today Highlights: BDL, Ashok Leyland, 3M India Q1 PAT rise y-o-y, Electrotherm, NATCO Pharma, Alkem Lab PAT decline, NMDC, Voltas, Cochin Shipyard, Physicswallah, PTC Ind, Borosil to announce Q1 results",
-      "summary": "Q1 Results Today, 14th August 2026 Highlights: Follow Q1FY27 highlights from businessline",
-      "url": "https://www.thehindubusinessline.com/markets/q1-results-today-highlights-ashok-leylad-nmdc-alkem-lab-bharat-dynamics-voltas-3m-india-cochin-shipyard-physicswallah-cholamandalam-fin-ptc-ind-natco-pharma-tmpv-results-14-august-2026/article71340415.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/xs5dkq/article71340413.ece/alternates/LANDSCAPE_1200/IMG_bl16_rupee_pic_4_1_V5FNIGST.jpg",
-      "image_alt": "Article image for Q1 Results Today Highlights: BDL, Ashok Leyland, 3M India Q1 PAT rise y-o-y, Electrotherm, NATCO Pharma, Alkem Lab PAT decline, NMDC, Voltas, Cochin Shipyard, Physicswallah, PTC Ind, Borosil to announce Q1 results"
-    },
-    {
-      "category": "Policy",
-      "date": "2026-08-11",
-      "title": "Centre reshuffles top bureaucracy; Deepti Gaur Mukerjee gets Higher Education charge",
-      "summary": "The latest changes redraw responsibilities across several key departments, with senior bureaucrats receiving new assignments following a series of recent retirements.",
-      "url": "https://www.thehindubusinessline.com/economy/policy/centre-reshuffles-top-bureaucracy-deepti-gaur-mukerjee-gets-higher-education-charge/article71331179.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/1g6ld2/article71331357.ece/alternates/LANDSCAPE_1200/Central%20Secretariat.jpg",
-      "image_alt": "Article image for Centre reshuffles top bureaucracy; Deepti Gaur Mukerjee gets Higher Education charge"
-    },
-    {
-      "category": "Companies",
-      "date": "2026-08-14",
-      "title": "Ashok Leyland steps up ₹2,000 crore cost-cutting drive amid commodity pressures",
-      "summary": "On a standalone basis, the Chennai-based auto major reported its highest-ever net profit of ₹609 crore in Q1 FY27 as against ₹594 crore in the same quarter previous year",
-      "url": "https://www.thehindubusinessline.com/companies/ashok-leyland-posts-record-q1-volumes-revenue-up-10/article71345165.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/9bmfzi/article71345754.ece/alternates/LANDSCAPE_1200/IMG_TH_-_07_10_2019_-_CC_2_1_1RDIDOIN.jpg",
-      "image_alt": "Article image for Ashok Leyland steps up ₹2,000 crore cost-cutting drive amid commodity pressures"
-    },
-    {
-      "category": "Economy",
-      "date": "2026-08-14",
-      "title": "Indian govt says buyers must lift sugar within 7 days, seeks bulk sales data by Aug 20",
-      "summary": "Certain mills are holding stocks of sugar in excess of the quantities reported or selling less sugar than the allocated monthly quota, Food Ministry says in a new order aimed at tackling surge in prices",
-      "url": "https://www.thehindubusinessline.com/economy/agri-business/indian-govt-says-buyers-must-lift-sugar-within-7-days-seeks-bulk-sales-data-by-aug-20/article71345945.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/6pa4mh/article71346912.ece/alternates/LANDSCAPE_1200/Indian-govt-shoGKRGD0C5S.4.jpg.jpg",
-      "image_alt": "Article image for Indian govt says buyers must lift sugar within 7 days, seeks bulk sales data by Aug 20"
+      "title": "Sony Pictures India to launch its Tamil GEC in October",
+      "summary": "The channel will bring together original fiction, global reality formats, movies and tentpole entertainment across television and digital platforms",
+      "url": "https://www.thehindubusinessline.com/companies/sony-pictures-india-to-launch-its-tamil-gec-in-october/article71348684.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/mv6mzp/article71348719.ece/alternates/LANDSCAPE_1200/Image%201.jpg",
+      "image_alt": "Article image for Sony Pictures India to launch its Tamil GEC in October"
     }
   ]
 }
