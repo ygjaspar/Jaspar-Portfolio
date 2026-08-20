@@ -11,6 +11,7 @@
     <meta property="og:image" content="https://jaspar-yg-portfolio-public.onrender.com/og.png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="https://jaspar-yg-portfolio-public.onrender.com/og.png">
+    <link rel="icon" href="jrg-logo-poster.png" type="image/png">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="news.css">
   </head>
@@ -22,8 +23,10 @@
 
       <header class="site-header glass">
         <a class="brand-seal" href="#top" aria-label="JRG — home">
-          <span class="brand-letters">JRG</span>
-          <span class="brand-dot"></span>
+          <video class="brand-video" autoplay muted loop playsinline preload="metadata" poster="jrg-logo-poster.png" aria-hidden="true">
+            <source src="jrg-logo.webm" type="video/webm">
+            <source src="jrg-logo.mp4" type="video/mp4">
+          </video>
         </a>
         <nav aria-label="Main navigation">
           <a href="#about">About</a>
@@ -279,7 +282,7 @@
 
       <footer class="section-shell">
         <a class="brand-seal footer-seal" href="#top" aria-label="JRG — back to top">
-          <span class="brand-letters">JRG</span><span class="brand-dot"></span>
+          <img class="brand-poster" src="jrg-logo-poster.png" alt="">
         </a>
         <p>Banking · Technology · Continuous learning</p>
         <a href="#top">Back to top ↑</a>
@@ -505,6 +508,19 @@
             show(0);
           })
           .catch(showError);
+      })();
+
+      (() => {
+        const logo = document.querySelector(".brand-video");
+        const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+        if (!logo || !reduceMotion.matches) return;
+
+        const showCompletedLogo = () => {
+          logo.pause();
+          logo.currentTime = Math.min(9.1, logo.duration || 9.1);
+        };
+        if (logo.readyState >= 1) showCompletedLogo();
+        else logo.addEventListener("loadedmetadata", showCompletedLogo, { once: true });
       })();
     </script>
   </body>
