@@ -962,6 +962,146 @@ a {
   grid-column: 1 / -1;
 }
 
+/* Qualification library — click-to-expand list of certifications and diplomas */
+.library-focus-card {
+  --credential-accent: 118, 205, 160;
+  grid-column: 1 / -1;
+}
+
+.credential-library > summary {
+  cursor: pointer;
+  list-style: none;
+  border-radius: 18px;
+  outline-offset: 6px;
+  transition: opacity 180ms ease;
+}
+
+.credential-library > summary::-webkit-details-marker {
+  display: none;
+}
+
+.credential-library > summary:hover {
+  opacity: 0.86;
+}
+
+.credential-library-toggle {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 14px;
+}
+
+.credential-chevron {
+  display: grid;
+  width: 30px;
+  height: 30px;
+  place-items: center;
+  border: 1px solid rgba(var(--credential-accent), 0.32);
+  border-radius: 50%;
+  color: rgba(var(--credential-accent), 1);
+  font-size: 11px;
+  line-height: 1;
+  transition: transform 220ms ease;
+}
+
+.credential-library[open] .credential-chevron {
+  transform: rotate(180deg);
+}
+
+.credential-library-body {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 28px;
+  margin: 26px 0 24px;
+  animation: credential-library-reveal 260ms ease both;
+}
+
+@keyframes credential-library-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+}
+
+.credential-library-group h4 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 14px;
+  color: rgba(var(--credential-accent), 1);
+  font-size: 10px;
+  font-weight: 850;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.credential-library-group h4 span {
+  padding: 3px 8px;
+  border: 1px solid rgba(var(--credential-accent), 0.3);
+  border-radius: 999px;
+  color: rgba(233, 247, 255, 0.7);
+  font-size: 9px;
+  letter-spacing: 0.08em;
+}
+
+.credential-card .credential-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: credential-item;
+}
+
+.credential-library-group-wide .credential-list {
+  columns: 2;
+  column-gap: 40px;
+}
+
+.credential-library-group-wide .credential-list li {
+  break-inside: avoid;
+}
+
+.credential-card .credential-list li {
+  display: block;
+  min-height: 0;
+  padding: 9px 0 9px 30px;
+  border: 0;
+  text-indent: -30px;
+  border-top: 1px solid rgba(190, 230, 255, 0.11);
+  border-radius: 0;
+  background: none;
+  color: rgba(240, 250, 255, 0.9);
+  font-size: 12.5px;
+  line-height: 1.45;
+  counter-increment: credential-item;
+}
+
+.credential-card .credential-list li::before {
+  display: inline-block;
+  width: 30px;
+  text-indent: 0;
+  color: rgba(var(--credential-accent), 0.85);
+  font-size: 9px;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+  content: counter(credential-item, decimal-leading-zero);
+}
+
+.library-focus-card .credential-library:not([open]) + .credential-issuer {
+  margin-top: 24px;
+}
+
+.credential-card .credential-list li em {
+  display: inline;
+  margin: 0 0 0 6px;
+  color: rgba(233, 247, 255, 0.5);
+  font-size: 10.5px;
+  font-style: normal;
+  font-weight: 650;
+  white-space: nowrap;
+}
+
 .project {
   position: relative;
   overflow: hidden;
@@ -1297,8 +1437,37 @@ footer a:last-child {
   }
 
   .credential-feature,
-  .academic-card {
+  .academic-card,
+  .library-focus-card {
     grid-column: auto;
+  }
+
+  .credential-library-body {
+    gap: 22px;
+  }
+
+  .credential-library-group-wide .credential-list {
+    columns: 1;
+  }
+
+  .library-focus-card h3 {
+    font-size: clamp(21px, 5.4vw, 32px);
+  }
+
+  .credential-library-toggle {
+    gap: 9px;
+  }
+
+  .library-focus-card .credential-count {
+    width: 46px;
+    height: 46px;
+    flex-basis: 46px;
+    border-radius: 15px;
+    font-size: 16px;
+  }
+
+  .credential-card .credential-list li em {
+    white-space: normal;
   }
 
   .project {
