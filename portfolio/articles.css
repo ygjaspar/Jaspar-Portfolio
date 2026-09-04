@@ -1,0 +1,330 @@
+/* Articles & Summaries — card grid plus a reading overlay, fed by articles.json */
+
+.articles {
+  scroll-margin-top: 100px;
+}
+
+.articles-head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 26px;
+  margin-bottom: 26px;
+  flex-wrap: wrap;
+}
+
+.articles-head h2 {
+  margin: 0 0 12px;
+}
+
+.articles-lede {
+  max-width: 520px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+.articles-filters {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.articles-filter {
+  border: 1px solid rgba(190, 230, 255, 0.24);
+  border-radius: 999px;
+  padding: 8px 15px;
+  color: rgba(237, 248, 255, 0.78);
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  background: rgba(255, 255, 255, 0.045);
+  cursor: pointer;
+  transition: border-color 180ms ease, color 180ms ease, background 180ms ease;
+}
+
+.articles-filter:hover {
+  border-color: rgba(102, 199, 255, 0.5);
+  color: var(--ice);
+}
+
+.articles-filter[aria-pressed="true"] {
+  border-color: rgba(102, 199, 255, 0.62);
+  color: var(--night);
+  background: var(--blue);
+}
+
+.articles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 18px;
+}
+
+.articles-status {
+  grid-column: 1 / -1;
+  margin: 0;
+  padding: 26px 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.article-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-radius: 26px;
+  padding: 26px;
+  text-align: left;
+  color: inherit;
+  font-family: inherit;
+  cursor: pointer;
+  transition: transform 220ms ease, border-color 220ms ease;
+}
+
+.article-card:hover,
+.article-card:focus-visible {
+  transform: translateY(-4px);
+  border-color: rgba(102, 199, 255, 0.55);
+}
+
+.article-card-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  color: var(--orange);
+  font-size: 9px;
+  font-weight: 850;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.article-card-meta time {
+  color: rgba(233, 247, 255, 0.55);
+  letter-spacing: 0.08em;
+}
+
+.article-lang {
+  padding: 3px 8px;
+  border: 1px solid rgba(102, 199, 255, 0.34);
+  border-radius: 999px;
+  color: var(--blue);
+  font-size: 8px;
+  letter-spacing: 0.1em;
+}
+
+.article-card h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.35;
+  letter-spacing: -0.01em;
+}
+
+.article-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+.article-card-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: auto;
+  padding-top: 14px;
+  border-top: 1px solid rgba(190, 230, 255, 0.13);
+  color: rgba(233, 247, 255, 0.6);
+  font-size: 11px;
+  font-weight: 650;
+}
+
+.article-card-foot span:last-child {
+  color: var(--blue);
+}
+
+/* Reading overlay */
+
+.article-reader {
+  position: fixed;
+  z-index: 60;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+}
+
+/* display:grid would otherwise defeat the hidden attribute. */
+.article-reader[hidden] {
+  display: none;
+}
+
+.article-reader-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(2, 10, 22, 0.76);
+  backdrop-filter: blur(6px);
+}
+
+.article-reader-panel {
+  position: relative;
+  z-index: 1;
+  width: min(760px, 100%);
+  max-height: min(86vh, 900px);
+  overflow-y: auto;
+  border-radius: 30px;
+  padding: 40px clamp(24px, 4vw, 46px);
+  animation: article-reader-in 240ms ease both;
+}
+
+@keyframes article-reader-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+}
+
+.article-reader-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.article-reader-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 0 0 14px;
+  color: var(--orange);
+  font-size: 9px;
+  font-weight: 850;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.article-reader-meta time,
+.article-reader-meta .article-read-time {
+  color: rgba(233, 247, 255, 0.55);
+  letter-spacing: 0.08em;
+}
+
+.article-reader-panel h3 {
+  max-width: 34ch;
+  margin: 0 0 10px;
+  font-size: clamp(24px, 3vw, 34px);
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+}
+
+.article-reader-source {
+  margin: 0 0 24px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid rgba(190, 230, 255, 0.14);
+  color: rgba(233, 247, 255, 0.62);
+  font-size: 12px;
+  font-weight: 650;
+}
+
+.article-reader-body > * {
+  margin: 0 0 17px;
+}
+
+.article-reader-body p {
+  color: rgba(240, 250, 255, 0.88);
+  font-size: 14.5px;
+  line-height: 1.78;
+}
+
+.article-reader-body h4 {
+  margin-top: 30px;
+  color: var(--blue);
+  font-size: 12px;
+  font-weight: 850;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.article-reader-body ul,
+.article-reader-body ol {
+  padding-left: 22px;
+  color: rgba(240, 250, 255, 0.86);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.article-reader-body li {
+  margin-bottom: 8px;
+}
+
+.article-reader-body li::marker {
+  color: var(--blue);
+}
+
+.article-reader-body strong {
+  color: #fff;
+  font-weight: 700;
+}
+
+.article-reader-body blockquote {
+  padding: 4px 0 4px 20px;
+  border-left: 2px solid rgba(255, 139, 61, 0.6);
+  color: rgba(245, 251, 255, 0.9);
+  font-size: 15px;
+  font-style: italic;
+  line-height: 1.7;
+}
+
+.article-reader-body .article-figure-note {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+/* Tamil copy needs a font stack that actually has the glyphs */
+
+.lang-ta,
+.lang-ta h3,
+.lang-ta p,
+.lang-ta li,
+.lang-ta blockquote {
+  font-family: "Noto Sans Tamil", "Tamil Sangam MN", "Tamil MN", "Nirmala UI", "Latha",
+    Inter, ui-sans-serif, sans-serif;
+}
+
+.lang-ta p,
+.lang-ta li {
+  line-height: 1.9;
+}
+
+@media (max-width: 760px) {
+  .articles-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .articles-head {
+    align-items: flex-start;
+  }
+
+  .article-reader {
+    padding: 0;
+  }
+
+  .article-reader-panel {
+    max-height: 100vh;
+    height: 100%;
+    border-radius: 0;
+    padding: 64px 22px 40px;
+  }
+}

@@ -14,6 +14,7 @@
     <link rel="icon" href="jrg-logo-poster.png" type="image/png">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="news.css">
+    <link rel="stylesheet" href="articles.css">
   </head>
   <body>
     <main id="top">
@@ -35,6 +36,7 @@
           <a href="#resolution-studio">Credit Studio</a>
           <a href="#daily-wisdom">Daily Wisdom</a>
           <a href="#daily-news">News Brief</a>
+          <a href="#articles">Articles</a>
         </nav>
         <a class="header-link glass-button" href="https://www.linkedin.com/in/jaspar-y-22649a32/">
           LinkedIn <span>↗</span>
@@ -135,6 +137,41 @@
           <p><span id="newsPosition">—</span> · Next article in 30 seconds</p>
         </div>
       </section>
+
+      <section class="articles section-shell" id="articles" aria-labelledby="articlesTitle">
+        <div class="articles-head">
+          <div>
+            <p class="eyebrow">Reading · Tamil &amp; English</p>
+            <h2 id="articlesTitle">Articles &amp; Summaries</h2>
+            <p class="articles-lede">
+              Short summaries of banking, economy and technology writing from Tamil and
+              English magazines — the pieces worth keeping.
+            </p>
+          </div>
+          <div class="articles-filters" id="articleFilters" role="group" aria-label="Filter by language"></div>
+        </div>
+        <div class="articles-grid" id="articlesGrid" aria-busy="true">
+          <p class="articles-status" id="articlesStatus">Loading summaries…</p>
+        </div>
+      </section>
+
+      <div class="article-reader" id="articleReader" hidden>
+        <div class="article-reader-backdrop" data-reader-close></div>
+        <article class="article-reader-panel glass" role="dialog" aria-modal="true" aria-labelledby="readerTitle">
+          <button class="article-reader-close glass-button" id="readerClose" type="button" aria-label="Close">✕</button>
+          <p class="article-reader-meta">
+            <span id="readerCategory"></span>
+            <time id="readerDate"></time>
+            <span class="article-read-time" id="readerRead"></span>
+          </p>
+          <h3 id="readerTitle"></h3>
+          <p class="article-reader-source" id="readerSource"></p>
+          <div class="article-reader-body" id="readerBody"></div>
+          <a class="news-source-link" id="readerLink" href="#" target="_blank" rel="noreferrer" hidden>
+            Read the original <span>↗</span>
+          </a>
+        </article>
+      </div>
 
       <section class="quick-links section-shell" aria-label="Portfolio highlights">
         <a class="quick-card glass" href="#experience">
@@ -262,7 +299,7 @@
                   <ol class="credential-list">
                     <li>Diploma in Banking <em>Manipal Academy of Banking</em></li>
                     <li>Diploma in International Banking &amp; Finance <em>IIBF</em></li>
-                    <li>Diploma in Information System Audit <em>IIBF</em></li>
+                    <li>Diploma in Information System Audit</li>
                   </ol>
                 </section>
                 <section class="credential-library-group credential-library-group-wide">
@@ -562,12 +599,240 @@
         const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
         if (!logo || !reduceMotion.matches) return;
 
+        // The seal rests on the finished mark, before the dissolve back to the start.
         const showCompletedLogo = () => {
           logo.pause();
-          logo.currentTime = Math.min(9.1, logo.duration || 9.1);
+          logo.currentTime = Math.min(19.5, logo.duration || 19.5);
         };
         if (logo.readyState >= 1) showCompletedLogo();
         else logo.addEventListener("loadedmetadata", showCompletedLogo, { once: true });
+      })();
+
+      /* Articles & Summaries — cards from articles.json, full text from articles/<slug>.json */
+      (() => {
+        const grid = document.getElementById("articlesGrid");
+        const status = document.getElementById("articlesStatus");
+        const filters = document.getElementById("articleFilters");
+        const reader = document.getElementById("articleReader");
+        const panel = reader.querySelector(".article-reader-panel");
+        const closeButton = document.getElementById("readerClose");
+        const field = {
+          category: document.getElementById("readerCategory"),
+          date: document.getElementById("readerDate"),
+          read: document.getElementById("readerRead"),
+          title: document.getElementById("readerTitle"),
+          source: document.getElementById("readerSource"),
+          body: document.getElementById("readerBody"),
+          link: document.getElementById("readerLink"),
+        };
+        const LANGUAGES = { ta: "தமிழ்", en: "English" };
+        const cache = new Map();
+        let articles = [];
+        let language = "all";
+        let lastFocused = null;
+
+        const formatDate = (value) => {
+          const parsed = new Date(value);
+          if (Number.isNaN(parsed.getTime())) return value || "";
+          return parsed.toLocaleDateString("en-IN", { day: "numeric", month: "long", year: "numeric" });
+        };
+
+        const setStatus = (message) => {
+          grid.replaceChildren();
+          const note = document.createElement("p");
+          note.className = "articles-status";
+          note.textContent = message;
+          grid.append(note);
+        };
+
+        const card = (article) => {
+          const button = document.createElement("button");
+          button.type = "button";
+          button.className = `article-card glass${article.language === "ta" ? " lang-ta" : ""}`;
+          button.dataset.slug = article.slug;
+
+          const meta = document.createElement("p");
+          meta.className = "article-card-meta";
+          const category = document.createElement("span");
+          category.textContent = article.category || "Summary";
+          const time = document.createElement("time");
+          time.dateTime = article.date || "";
+          time.textContent = formatDate(article.date);
+          const lang = document.createElement("span");
+          lang.className = "article-lang";
+          lang.textContent = LANGUAGES[article.language] || "English";
+          meta.append(category, time, lang);
+
+          const title = document.createElement("h3");
+          title.textContent = article.title || "";
+          const summary = document.createElement("p");
+          summary.textContent = article.summary || "";
+
+          const foot = document.createElement("div");
+          foot.className = "article-card-foot";
+          const source = document.createElement("span");
+          source.textContent = article.source
+            ? `${article.source} · ${article.reading_minutes || 1} min`
+            : `${article.reading_minutes || 1} min read`;
+          const action = document.createElement("span");
+          action.textContent = "Read →";
+          foot.append(source, action);
+
+          button.append(meta, title, summary, foot);
+          button.addEventListener("click", () => open(article.slug));
+          return button;
+        };
+
+        const render = () => {
+          const visible = language === "all"
+            ? articles
+            : articles.filter((item) => item.language === language);
+          if (!visible.length) {
+            setStatus("Nothing here yet in that language.");
+            return;
+          }
+          grid.replaceChildren(...visible.map(card));
+        };
+
+        const installFilters = () => {
+          const present = [...new Set(articles.map((item) => item.language))];
+          if (present.length < 2) return;
+          const options = [["all", "All"], ...present.map((code) => [code, LANGUAGES[code] || code])];
+          filters.replaceChildren(...options.map(([code, label]) => {
+            const button = document.createElement("button");
+            button.type = "button";
+            button.className = "articles-filter";
+            button.textContent = label;
+            button.setAttribute("aria-pressed", String(code === language));
+            button.addEventListener("click", () => {
+              language = code;
+              filters.querySelectorAll(".articles-filter").forEach((other) => {
+                other.setAttribute("aria-pressed", String(other === button));
+              });
+              render();
+            });
+            return button;
+          }));
+        };
+
+        // **bold** becomes real <strong> nodes built from text, never parsed as markup.
+        const rich = (element, text) => {
+          String(text || "").split(/\*\*(.+?)\*\*/s).forEach((piece, index) => {
+            if (!piece) return;
+            if (index % 2) {
+              const strong = document.createElement("strong");
+              strong.textContent = piece;
+              element.append(strong);
+            } else {
+              element.append(document.createTextNode(piece));
+            }
+          });
+          return element;
+        };
+
+        const renderBody = (blocks) => {
+          const nodes = (blocks || []).map((block) => {
+            if (block.type === "h") {
+              return rich(document.createElement("h4"), block.text);
+            }
+            if (block.type === "quote") {
+              return rich(document.createElement("blockquote"), block.text);
+            }
+            if (block.type === "list" || block.type === "olist") {
+              const list = document.createElement(block.type === "olist" ? "ol" : "ul");
+              (block.items || []).forEach((item) => {
+                list.append(rich(document.createElement("li"), item));
+              });
+              return list;
+            }
+            return rich(document.createElement("p"), block.text);
+          });
+          field.body.replaceChildren(...nodes);
+        };
+
+        const fill = (article) => {
+          panel.classList.toggle("lang-ta", article.language === "ta");
+          field.category.textContent = article.category || "Summary";
+          field.date.dateTime = article.date || "";
+          field.date.textContent = formatDate(article.date);
+          field.read.textContent = `${article.reading_minutes || 1} min read`;
+          field.title.textContent = article.title || "";
+          field.source.textContent = article.source
+            ? `From ${article.source}`
+            : "Summary";
+          renderBody(article.body);
+          if (article.source_url && /^https?:\/\//i.test(article.source_url)) {
+            field.link.href = article.source_url;
+            field.link.hidden = false;
+          } else {
+            field.link.hidden = true;
+          }
+        };
+
+        const show = () => {
+          lastFocused = document.activeElement;
+          reader.hidden = false;
+          document.body.style.overflow = "hidden";
+          panel.scrollTop = 0;
+          closeButton.focus();
+        };
+
+        const close = () => {
+          reader.hidden = true;
+          document.body.style.overflow = "";
+          if (window.location.hash.startsWith("#article/")) {
+            history.replaceState(null, "", window.location.pathname + window.location.search);
+          }
+          if (lastFocused && lastFocused.focus) lastFocused.focus();
+        };
+
+        const open = async (slug) => {
+          const listed = articles.find((item) => item.slug === slug);
+          if (!listed) return;
+          history.replaceState(null, "", `#article/${slug}`);
+          fill({ ...listed, body: [{ type: "p", text: "Loading…" }] });
+          show();
+          try {
+            if (!cache.has(slug)) {
+              const response = await fetch(`articles/${encodeURIComponent(slug)}.json?v=${Date.now()}`,
+                { cache: "no-store" });
+              if (!response.ok) throw new Error(String(response.status));
+              cache.set(slug, await response.json());
+            }
+            fill({ ...listed, ...cache.get(slug) });
+          } catch (error) {
+            renderBody([{ type: "p", text: "This summary could not be loaded just now." }]);
+          }
+        };
+
+        closeButton.addEventListener("click", close);
+        reader.querySelector("[data-reader-close]").addEventListener("click", close);
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "Escape" && !reader.hidden) close();
+        });
+
+        fetch(`articles.json?v=${Date.now()}`, { cache: "no-store" })
+          .then((response) => {
+            if (!response.ok) throw new Error(String(response.status));
+            return response.json();
+          })
+          .then((payload) => {
+            articles = (Array.isArray(payload.articles) ? payload.articles : [])
+              .filter((item) => item && item.slug && item.title);
+            grid.setAttribute("aria-busy", "false");
+            if (!articles.length) {
+              setStatus("Summaries are on the way.");
+              return;
+            }
+            installFilters();
+            render();
+            const match = window.location.hash.match(/^#article\/(.+)$/);
+            if (match) open(decodeURIComponent(match[1]));
+          })
+          .catch(() => {
+            grid.setAttribute("aria-busy", "false");
+            setStatus("Summaries are on the way.");
+          });
       })();
     </script>
   </body>
