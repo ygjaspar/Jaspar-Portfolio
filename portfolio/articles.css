@@ -1,7 +1,9 @@
 /* Articles & Summaries — card grid plus a reading overlay, fed by articles.json */
 
+/* Matches the 150px the other full sections use, so the news brief has room to end. */
 .articles {
   scroll-margin-top: 100px;
+  padding-top: 150px;
 }
 
 .articles-head {
@@ -62,12 +64,58 @@
   gap: 18px;
 }
 
+/* Three across on a wide screen, so the six-card first page is two full rows and
+   summary text keeps a comfortable measure rather than stretching thin. */
+@media (min-width: 1080px) {
+  .articles-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
 .articles-status {
   grid-column: 1 / -1;
   margin: 0;
   padding: 26px 0;
   color: var(--muted);
   font-size: 13px;
+}
+
+.articles-more {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 22px;
+}
+
+/* Same trap as the reader: display:flex would override the hidden attribute. */
+.articles-more[hidden] {
+  display: none;
+}
+
+.articles-more::after {
+  height: 1px;
+  flex: 1;
+  background: linear-gradient(90deg, rgba(190, 230, 255, 0.22), transparent);
+  content: "";
+}
+
+.articles-more button {
+  border: 1px solid rgba(190, 230, 255, 0.28);
+  border-radius: 999px;
+  padding: 11px 22px;
+  color: var(--ice);
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  background: rgba(255, 255, 255, 0.05);
+  cursor: pointer;
+  transition: border-color 180ms ease, background 180ms ease;
+}
+
+.articles-more button:hover {
+  border-color: rgba(102, 199, 255, 0.6);
+  background: rgba(102, 199, 255, 0.1);
 }
 
 .article-card {
@@ -309,6 +357,10 @@
 }
 
 @media (max-width: 760px) {
+  .articles {
+    padding-top: 100px;
+  }
+
   .articles-grid {
     grid-template-columns: 1fr;
   }

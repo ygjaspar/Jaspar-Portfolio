@@ -153,6 +153,9 @@
         <div class="articles-grid" id="articlesGrid" aria-busy="true">
           <p class="articles-status" id="articlesStatus">Loading summaries…</p>
         </div>
+        <div class="articles-more" id="articlesMore" hidden>
+          <button type="button" id="articlesMoreButton" aria-controls="articlesGrid"></button>
+        </div>
       </section>
 
       <div class="article-reader" id="articleReader" hidden>
@@ -613,6 +616,8 @@
         const grid = document.getElementById("articlesGrid");
         const status = document.getElementById("articlesStatus");
         const filters = document.getElementById("articleFilters");
+        const more = document.getElementById("articlesMore");
+        const moreButton = document.getElementById("articlesMoreButton");
         const reader = document.getElementById("articleReader");
         const panel = reader.querySelector(".article-reader-panel");
         const closeButton = document.getElementById("readerClose");
@@ -629,6 +634,7 @@
         const cache = new Map();
         let articles = [];
         let language = "all";
+        let expanded = false;
         let lastFocused = null;
 
         const formatDate = (value) => {
@@ -683,15 +689,28 @@
           return button;
         };
 
+        // Six fills two rows on a wide screen; beyond that the section would swamp the
+        // page, so the rest waits behind a button.
+        const PAGE_SIZE = 6;
+
         const render = () => {
           const visible = language === "all"
             ? articles
             : articles.filter((item) => item.language === language);
           if (!visible.length) {
             setStatus("Nothing here yet in that language.");
+            more.hidden = true;
             return;
           }
-          grid.replaceChildren(...visible.map(card));
+          const shown = expanded ? visible : visible.slice(0, PAGE_SIZE);
+          grid.replaceChildren(...shown.map(card));
+          const hidden = visible.length - shown.length;
+          more.hidden = visible.length <= PAGE_SIZE;
+          moreButton.textContent = expanded
+            ? "Show fewer"
+            : `Show all ${visible.length} summaries`;
+          moreButton.setAttribute("aria-expanded", String(expanded));
+          if (hidden === 0 && !expanded) more.hidden = true;
         };
 
         const installFilters = () => {
@@ -706,6 +725,7 @@
             button.setAttribute("aria-pressed", String(code === language));
             button.addEventListener("click", () => {
               language = code;
+              expanded = false;
               filters.querySelectorAll(".articles-filter").forEach((other) => {
                 other.setAttribute("aria-pressed", String(other === button));
               });
@@ -804,6 +824,16 @@
             renderBody([{ type: "p", text: "This summary could not be loaded just now." }]);
           }
         };
+
+        moreButton.addEventListener("click", () => {
+          const collapsing = expanded;
+          expanded = !expanded;
+          render();
+          if (collapsing) {
+            document.getElementById("articles").scrollIntoView({ block: "start" });
+          }
+          moreButton.focus();
+        });
 
         closeButton.addEventListener("click", close);
         reader.querySelector("[data-reader-close]").addEventListener("click", close);
