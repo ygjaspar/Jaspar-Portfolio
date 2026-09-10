@@ -1,7 +1,20 @@
 {
-  "updated_at": "2026-09-04T15:47:33+05:30",
-  "count": 1,
+  "updated_at": "2026-09-10T23:10:08+05:30",
+  "count": 2,
   "articles": [
+    {
+      "slug": "gpt6",
+      "title": "GPT-6 Astra – AI உலகில் அடுத்த தலைமுறை அறிவுத்திறன்!",
+      "language": "ta",
+      "category": "Summary",
+      "date": "2026-09-10",
+      "summary": "About GPT - 6 Astra",
+      "source": "",
+      "source_url": "",
+      "tags": [],
+      "reading_minutes": 5,
+      "published_at": "2026-09-10T23:10:08+05:30"
+    },
     {
       "slug": "personal-finance-money-investment-habits-series",
       "title": "கூட்டு வருமான வளர்ச்சி (Compounding) உலகின் எட்டாவது அதிசயம்",
