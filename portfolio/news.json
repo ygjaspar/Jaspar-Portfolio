@@ -1,42 +1,87 @@
 {
-  "updated_at": "2026-10-15T13:57:29+05:30",
+  "updated_at": "2026-10-16T13:50:13+05:30",
   "source": "The Hindu BusinessLine",
   "articles": [
     {
       "category": "Money & Banking",
-      "date": "2026-10-15",
-      "title": "Fairfax’s ₹52,878 crore bank deal signals zest for India assets",
-      "summary": "The interest suggests robust appetite for financial services assets as the population of wealthy citizens expands and earnings of the middle class rise",
-      "url": "https://www.thehindubusinessline.com/money-and-banking/fairfaxs-52878-crore-bank-deal-signals-zest-for-india-assets/article71587027.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/mkeb68/article71395020.ece/alternates/LANDSCAPE_1200/Govt-weighs-optGVHG0EUO4.4.jpg.jpg",
-      "image_alt": "Article image for Fairfax’s ₹52,878 crore bank deal signals zest for India assets"
+      "date": "2026-10-16",
+      "title": "Fairfax proposes to contribute its interests in Digit, IIFL Capital to IDBI Bank",
+      "summary": "Fairfax CEO emphasises that combining IDBI Bank, Digit, and IIFL Capital would create an entity that is well-positioned to participate in the continued growth and success of Indian markets",
+      "url": "https://www.thehindubusinessline.com/money-and-banking/fairfax-proposes-to-contributeits-interests-in-digit-iifl-capital-to-idbi-bank/article71591189.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/f5vk76/article71427141.ece/alternates/LANDSCAPE_1200/2026-08-21T055457Z_1064768737_RC20H0AJ8KPQ_RTRMADP_3_IDBI-BANK-STAKE-SALE-FAIRFAX-FIN.JPG",
+      "image_alt": "Article image for Fairfax proposes to contribute its interests in Digit, IIFL Capital to IDBI Bank"
     },
     {
       "category": "Companies",
-      "date": "2026-10-15",
-      "title": "Rajesh Power Services bags orders worth ₹541 crore from Gujarat discoms",
-      "summary": "The turnkey order from UGVCL covers site survey, designing, engineering, procurement, supply, testing and commissioning for shifting the existing electrical network at various locations in the state",
-      "url": "https://www.thehindubusinessline.com/companies/rajesh-power-services-bags-orders-worth-541-crore-from-gujarat-discoms/article71587088.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/3wwpxh/article71584447.ece/alternates/LANDSCAPE_1200/2026-08-24T102341Z_480377417_RC2Y4NARCXOA_RTRMADP_3_INDIA-BONDS-BLOCKCHAIN.JPG",
-      "image_alt": "Article image for Rajesh Power Services bags orders worth ₹541 crore from Gujarat discoms"
+      "date": "2026-10-16",
+      "title": "Hero MotoCorp struggles to meet festive demand as global supply chains face fresh pressures",
+      "summary": "Executive Director Vikram Kasbekar says GST cuts have lifted two-wheeler demand, while competition for semiconductors from AI and emerging industries poses fresh challenges for manufacturers",
+      "url": "https://www.thehindubusinessline.com/companies/hero-motocorp-struggles-to-meet-festive-demand-as-global-supply-chains-face-fresh-pressures/article71574056.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/iqlfkb/article71574061.ece/alternates/LANDSCAPE_1200/vikram%20kasbekar.jpg",
+      "image_alt": "Article image for Hero MotoCorp struggles to meet festive demand as global supply chains face fresh pressures"
     },
     {
       "category": "Economy",
-      "date": "2026-10-15",
-      "title": "STT collection surges 52% in FY27 so far amid market volatility; net direct tax collection grows 13%",
-      "summary": "Data from the Income tax Department showed that collection from STT surged to ₹46,840 crore as against ₹31,000 crore.",
-      "url": "https://www.thehindubusinessline.com/economy/stt-collection-surges-52-in-fy27-so-far-amid-market-volatility-net-direct-tax-collection-grows-13/article71587136.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/70m3dg/article71587192.ece/alternates/LANDSCAPE_1200/iStock-1363583016.jpg",
-      "image_alt": "Article image for STT collection surges 52% in FY27 so far amid market volatility; net direct tax collection grows 13%"
+      "date": "2026-10-16",
+      "title": "India’s direct-selling sector reaches Rs 23,522 crore, with women driving self-employment",
+      "summary": "An industry report highlights the sector’s role in self-employment, women-led livelihoods and household incomes, while identifying seller retention as a challenge.",
+      "url": "https://www.thehindubusinessline.com/economy/indias-direct-selling-sector-reaches-rs-23522-crore-with-women-driving-self-employment/article71574985.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/7st4dl/article71575006.ece/alternates/LANDSCAPE_1200/17hyngg_SARAS%20FAIR%20%2007.jpg",
+      "image_alt": "Article image for India’s direct-selling sector reaches Rs 23,522 crore, with women driving self-employment"
     },
     {
       "category": "Markets",
+      "date": "2026-10-16",
+      "title": "HDFC Bank shares near ₹728 ahead of Q2 results; Sell orders at 77%",
+      "summary": "The stock opened at ₹727.90, touched an intraday high of ₹734.90 and a low of ₹726.05, against a previous close of ₹726.85.",
+      "url": "https://www.thehindubusinessline.com/markets/hdfc-bank-holds-near-728-on-results-eve-sell-orders-overwhelm-at-77/article71591542.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/xf9wr5/article71591549.ece/alternates/LANDSCAPE_1200/HDFC-Bank-MD-_-GB4GFHCJ9.4.jpg.jpg",
+      "image_alt": "Article image for HDFC Bank shares near ₹728 ahead of Q2 results; Sell orders at 77%"
+    },
+    {
+      "category": "Policy",
       "date": "2026-10-15",
-      "title": "Rupee hedging turmoil exposes strain in India's FX market",
-      "summary": "One-year hedging cost rises to 4.6% amid liquidity strain and market dislocation as traders struggle to unwind positions",
-      "url": "https://www.thehindubusinessline.com/markets/forex/rupee-hedging-turmoil-exposes-strain-in-indias-fx-market/article71587071.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/3a7wek/article71577972.ece/alternates/LANDSCAPE_1200/BL03_Think_Digital_rupee.jpg",
-      "image_alt": "Article image for Rupee hedging turmoil exposes strain in India's FX market"
+      "title": "Defence Ministry approves over ₹2,400 crore procurement from startups and MSMEs",
+      "summary": "India is expanding domestic defence manufacturing, with thousands of smaller enterprises supporting the sector and exports reaching nearly 100 countries.",
+      "url": "https://www.thehindubusinessline.com/economy/policy/defence-ministry-approves-over-2400-cr-procurement-from-start-ups-msmes-rajnath/article71588630.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/tw3uzf/article71588692.ece/alternates/LANDSCAPE_1200/PTI10_15_2026_000206B.jpg",
+      "image_alt": "Article image for Defence Ministry approves over ₹2,400 crore procurement from startups and MSMEs"
+    },
+    {
+      "category": "Money & Banking",
+      "date": "2026-10-16",
+      "title": "Banks set for mixed Q2 show as NIMs weaken despite profit growth",
+      "summary": "PAT growth for the top five lenders is estimated at 7-17 per cent year-on-year, while NIMs are expected to contract across most banks",
+      "url": "https://www.thehindubusinessline.com/money-and-banking/banks-set-for-mixed-q2-show-as-nims-weaken-despite-profit-growth/article71572229.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/egmmox/article71572322.ece/alternates/LANDSCAPE_1200/2026-08-12T062743Z_801115854_RC2XG0AJ1F8A_RTRMADP_3_INDIA-DOLLAR-BONDS-STATE-BANK-OF-INDIA.JPG",
+      "image_alt": "Article image for Banks set for mixed Q2 show as NIMs weaken despite profit growth"
+    },
+    {
+      "category": "Companies",
+      "date": "2026-10-16",
+      "title": "HLL Lifecare unveils new digital platform to sell products, services",
+      "summary": "The eStore marks HLL’s shift to a modern, digital platform that lets customers, partners, and healthcare institutions connect from anywhere, anytime",
+      "url": "https://www.thehindubusinessline.com/companies/hll-lifecare-unveils-new-digital-platform-to-sell-products-services/article71591265.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/gcv31i/article71591306.ece/alternates/LANDSCAPE_1200/1736138204390.jfif",
+      "image_alt": "Article image for HLL Lifecare unveils new digital platform to sell products, services"
+    },
+    {
+      "category": "Economy",
+      "date": "2026-10-16",
+      "title": "Air India extends cancellation of Saudi Arabia flights till Oct 20",
+      "summary": "Earlier, the airline as well as Air India Express had cancelled flights to Saudi Arabia till October 17",
+      "url": "https://www.thehindubusinessline.com/economy/logistics/air-india-extends-cancellation-of-saudi-arabia-flights-till-oct-20/article71591425.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/vdtw3b/article71591480.ece/alternates/LANDSCAPE_1200/-Please-releaseGU9GKF90O.5.jpg.jpg",
+      "image_alt": "Article image for Air India extends cancellation of Saudi Arabia flights till Oct 20"
+    },
+    {
+      "category": "Markets",
+      "date": "2026-10-16",
+      "title": "SBI Research calls for scrapping LTCG tax on equities amid record FPI outflows",
+      "summary": "The lender’s research arm has proposed policy changes to encourage longer-term foreign investment and strengthen foreign currency inflows into India",
+      "url": "https://www.thehindubusinessline.com/markets/sbi-research-calls-for-scrapping-ltcg-tax-on-equities-amid-record-fpi-outflows/article71575540.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/szsl4q/article71575586.ece/alternates/LANDSCAPE_1200/IMG_PO09_LTCG_2_1_R6CTD7O5.jpg",
+      "image_alt": "Article image for SBI Research calls for scrapping LTCG tax on equities amid record FPI outflows"
     },
     {
       "category": "Policy",
@@ -49,66 +94,21 @@
     },
     {
       "category": "Money & Banking",
-      "date": "2026-10-15",
-      "title": "HDFC Bank shares surge 1.60% to ₹722 as Q2 results weekend nears",
-      "summary": "Despite the price gains, selling pressure remained firm, with 66.35% of traded volume on the sell side",
-      "url": "https://www.thehindubusinessline.com/markets/stock-markets/hdfc-bank-shares-surge-160-to-722-as-q2-results-weekend-nears/article71586967.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/3rkis4/article71578293.ece/alternates/LANDSCAPE_1200/2026-10-08T123428Z_1588403643_RC2V5FA01T3X_RTRMADP_3_HDFC-BANK-CEO-SALARY.JPG",
-      "image_alt": "Article image for HDFC Bank shares surge 1.60% to ₹722 as Q2 results weekend nears"
+      "date": "2026-10-16",
+      "title": "What happens when merchants pass on UPI MDR costs to customers?",
+      "summary": "An IIT Bombay study mentions two aftereffects: First, consumers who purchase goods/services for more than ₹2,000 pay a higher price; second, the higher selling prices percolate even to those making purchases of less than ₹2,000",
+      "url": "https://www.thehindubusinessline.com/money-and-banking/what-happens-when-merchants-pass-on-upi-mdr-costs-to-customers/article71571561.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/b1rr0q/article71571730.ece/alternates/LANDSCAPE_1200/UPI-MDR-reset-pG7MGHOC7J.4.jpg.jpg",
+      "image_alt": "Article image for What happens when merchants pass on UPI MDR costs to customers?"
     },
     {
       "category": "Companies",
-      "date": "2026-10-15",
-      "title": "Canadian energy engineering firm VZFOX to set up India base in Bengaluru by year-end",
-      "summary": "The Calgary-based company is entering India through the Team Canada Trade Mission, with plans to gradually expand its local workforce as business opportunities develop.",
-      "url": "https://www.thehindubusinessline.com/companies/canadian-energy-engineering-firm-vzfox-to-set-up-india-base-in-bengaluru-by-year-end/article71586927.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/nnryti/article71586949.ece/alternates/LANDSCAPE_1200/iStock-1414841794.jpg",
-      "image_alt": "Article image for Canadian energy engineering firm VZFOX to set up India base in Bengaluru by year-end"
-    },
-    {
-      "category": "Economy",
-      "date": "2026-10-15",
-      "title": "India’s edible oil imports up 3.27% in Nov-Sept on higher palm oil shipments",
-      "summary": "India imported 151.64 lakh tonnes of edible oil in the first 11 months of the oil year 2025-26 against 146.83 lakh tonnes in the corresponding period of the previous oil year 2024-25",
-      "url": "https://www.thehindubusinessline.com/economy/agri-business/indias-edible-oil-imports-up-327-in-nov-sept-on-higher-palm-oil-shipments/article71587067.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/h5vieh/article71587135.ece/alternates/LANDSCAPE_1200/India-cuts-impoGJRGITNFO.5.jpg.jpg",
-      "image_alt": "Article image for India’s edible oil imports up 3.27% in Nov-Sept on higher palm oil shipments"
-    },
-    {
-      "category": "Markets",
-      "date": "2026-10-15",
-      "title": "Today’s Gold Rate in India October 15: Gold prices down in Delhi, Mumbai, Kolkata, Chennai, Bengaluru",
-      "summary": "22, 24 carat Gold prices down across metro cities on October 15",
-      "url": "https://www.thehindubusinessline.com/gold-rate-today/gold-price-today-in-delhi-mumbai-kolkata-chennai-bengaluru-hyderabad-pune-gold-rates-metro-cities-october-15-2026/article71587166.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/vcp8pm/article71578498.ece/alternates/LANDSCAPE_1200/2018-11-05T132911Z_701936538_RC1418E30800_RTRMADP_3_INDIA-RELIGION.JPG",
-      "image_alt": "Article image for Today’s Gold Rate in India October 15: Gold prices down in Delhi, Mumbai, Kolkata, Chennai, Bengaluru"
-    },
-    {
-      "category": "Policy",
-      "date": "2026-10-14",
-      "title": "India-Mauritius tax treaty amended to curb treaty abuse; PPT test introduced",
-      "summary": "The change places greater emphasis on the purpose and commercial substance of transactions when authorities assess claims for treaty relief.",
-      "url": "https://www.thehindubusinessline.com/economy/policy/india-mauritius-tax-treaty-amended-to-curb-treaty-abuse-ppt-test-introduced/article71583541.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/onr4t7/article71583559.ece/alternates/LANDSCAPE_1200/IMG_bl11_flag_2_1_AICLE3UL.jpg",
-      "image_alt": "Article image for India-Mauritius tax treaty amended to curb treaty abuse; PPT test introduced"
-    },
-    {
-      "category": "Money & Banking",
-      "date": "2026-10-15",
-      "title": "India may need rate hikes, tax cuts to buoy rupee, analysts say",
-      "summary": "The RBI can raise its emergency lending rate for banks, making funds more expensive and tightening liquidity to support the rupee",
-      "url": "https://www.thehindubusinessline.com/economy/india-may-need-rate-hikes-tax-cuts-to-buoy-rupee-analysts-say/article71586564.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/d6a4nf/article71582564.ece/alternates/LANDSCAPE_1200/Edit_second-leaG76GFVVE8.3.jpg.jpg",
-      "image_alt": "Article image for India may need rate hikes, tax cuts to buoy rupee, analysts say"
-    },
-    {
-      "category": "Companies",
-      "date": "2026-10-15",
-      "title": "India’s festive shopping surge leaves metros behind as small cities lead the charge",
-      "summary": "Average order value surged from ₹1,100 to ₹2,639, nearly doubling, as shoppers bought higher-value items rather than more items",
-      "url": "https://www.thehindubusinessline.com/companies/indias-festive-shopping-surge-leaves-metros-behind-as-small-cities-lead-the-charge/article71587060.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/222vfd/article71587119.ece/alternates/LANDSCAPE_1200/IMG_PO22_Shopping_2_1_TOBTL3MA.jpg",
-      "image_alt": "Article image for India’s festive shopping surge leaves metros behind as small cities lead the charge"
+      "date": "2026-10-16",
+      "title": "Diwali demand masks bigger risk: Indonesia’s supply warning casts shadow on Palm oil prices ahead of 2027",
+      "summary": "Indonesia projects a 4–5 million tonne production decline and higher biodiesel consumption, but Dorab Mistry cautions that expensive oils could themselves weaken demand",
+      "url": "https://www.thehindubusinessline.com/companies/diwali-demand-masks-bigger-risk-indonesias-supply-warning-casts-shadow-on-palm-oil-prices-ahead-of-2027/article71572735.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/5t9s7z/article71572734.ece/alternates/LANDSCAPE_1200/globoil.jpeg",
+      "image_alt": "Article image for Diwali demand masks bigger risk: Indonesia’s supply warning casts shadow on Palm oil prices ahead of 2027"
     }
   ]
 }
