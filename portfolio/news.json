@@ -1,42 +1,87 @@
 {
-  "updated_at": "2026-10-21T14:13:45+05:30",
+  "updated_at": "2026-10-22T14:16:09+05:30",
   "source": "The Hindu BusinessLine",
   "articles": [
     {
       "category": "Money & Banking",
-      "date": "2026-10-21",
-      "title": "HDFC Bank shares stock fall despite profit growth as street stays unimpressed",
-      "summary": "At current levels, HDFC Bank trades at a trailing P/E of 13.71 — a significant discount to its historical valuations — leaving analysts divided on whether the worst of the re-rating is behind the stock",
-      "url": "https://www.thehindubusinessline.com/markets/hdfc-bank-stock-slips-despite-profit-growth-as-street-stays-unimpressed/article71606549.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/gnab7v/article71606567.ece/alternates/LANDSCAPE_1200/2026-10-08T123428Z_1588403643_RC2V5FA01T3X_RTRMADP_3_HDFC-BANK-CEO-SALARY.JPG",
-      "image_alt": "Article image for HDFC Bank shares stock fall despite profit growth as street stays unimpressed"
+      "date": "2026-10-22",
+      "title": "Centre, LIC to become public shareholders in IDBI Bank after strategic sale: DIPAM Secretary",
+      "summary": "Following the strategic restructuring, the responsibility to run the bank and infuse capital whenever required would rest with the strategic buyer, he told PTI",
+      "url": "https://www.thehindubusinessline.com/money-and-banking/centre-lic-to-become-public-shareholders-in-idbi-bank-after-strategic-sale-dipam-secretary/article71610694.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/b2w2vd/article71596249.ece/alternates/LANDSCAPE_1200/2026-10-15T051452Z_973697633_RC20H0AEICDL_RTRMADP_3_IDBI-BANK-STOCKS.JPG",
+      "image_alt": "Article image for Centre, LIC to become public shareholders in IDBI Bank after strategic sale: DIPAM Secretary"
     },
     {
       "category": "Companies",
-      "date": "2026-10-21",
-      "title": "Zydus Lifesciences gets USFDA nod for menopause treatment drug",
-      "summary": "The final approval granted by the US Food and Drug Administration (USFDA) is for Estradiol and Levonorgestrel Transdermal System (0.045 mg/0.015 mg per day)",
-      "url": "https://www.thehindubusinessline.com/companies/zydus-lifesciences-gets-usfda-nod-for-menopause-treatment-drug/article71606787.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/amlqhd/article66477474.ece/alternates/LANDSCAPE_1200/Zydus%20Lifesciences.png",
-      "image_alt": "Article image for Zydus Lifesciences gets USFDA nod for menopause treatment drug"
+      "date": "2026-10-22",
+      "title": "Sapphire Foods posts best revenue growth in four years, stock slides",
+      "summary": "The adjusted profit before tax turned positive at ₹120 million against a loss of ₹43 million in Q2 FY26, though reported PBT remained marginally negative at -₹6 million",
+      "url": "https://www.thehindubusinessline.com/companies/sapphire-foods-posts-best-revenue-growth-in-four-years-stock-slides/article71610662.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/r6p8a1/article71610667.ece/alternates/LANDSCAPE_1200/IMG_BLCAMPUS_-_planetyum_2_1_BJCEE6P4.jpg",
+      "image_alt": "Article image for Sapphire Foods posts best revenue growth in four years, stock slides"
     },
     {
       "category": "Economy",
-      "date": "2026-10-21",
-      "title": "Over 100 Japanese companies expand GCCs in India, shift focus to AI and engineering",
-      "summary": "Japanese firms are increasingly using their Indian centres to develop technology, strengthen global operations and build specialised capabilities beyond traditional outsourcing",
-      "url": "https://www.thehindubusinessline.com/economy/over-100-japanese-companies-expand-gccs-in-india-shift-focus-to-ai-and-engineering/article71606665.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/h8l9n7/article71606730.ece/alternates/LANDSCAPE_1200/bl28-think-dc-pG0HGF0PS8.4.jpg.jpg",
-      "image_alt": "Article image for Over 100 Japanese companies expand GCCs in India, shift focus to AI and engineering"
+      "date": "2026-10-22",
+      "title": "Restoring degraded landscapes can help improve rural income: WRI India",
+      "summary": "Almost of half of India’s agricultural soils have poor soil health and low soil organic carbon impacting agricultural productivity, says Ruchika Singh, Executive Programme Director - Food, Land and Water, WRI India",
+      "url": "https://www.thehindubusinessline.com/economy/agri-business/restoring-degraded-landscapes-can-help-improve-rural-income-wri-india/article71610583.ece",
+      "image": "https://bl-i.thgim.com/public/economy/agri-business/fba3jd/article71610664.ece/alternates/LANDSCAPE_1200/Sidhi%20WRI%20India.jpg",
+      "image_alt": "Article image for Restoring degraded landscapes can help improve rural income: WRI India"
     },
     {
       "category": "Markets",
+      "date": "2026-10-22",
+      "title": "360 ONE allots 4.8% stake to UBS AG following warrant exercise",
+      "summary": "UBS AG had subscribed to 20,502,939 warrants on a preferential basis under an agreement with 360 ONE",
+      "url": "https://www.thehindubusinessline.com/markets/stock-markets/360-one-allots-48-stake-to-ubs-ag-following-warrant-exercise/article71610693.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/zevgb1/article71610727.ece/alternates/LANDSCAPE_1200/IMG_BL12_Think_percent1_2_1_8AEKC9NV.jpg",
+      "image_alt": "Article image for 360 ONE allots 4.8% stake to UBS AG following warrant exercise"
+    },
+    {
+      "category": "Policy",
       "date": "2026-10-21",
-      "title": "Carlsberg said to near public filing for $700 million India IPO",
-      "summary": "Carlsberg India, the country’s second-largest brewer, is expected to begin investor roadshows next week and could launch the IPO as early as December",
-      "url": "https://www.thehindubusinessline.com/markets/carlsberg-said-to-near-public-filing-for-700-million-india-ipo/article71606779.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/oruuii/article71175236.ece/alternates/LANDSCAPE_1200/2026-07-02T070917Z_1782262730_RC2WCBA78K4D_RTRMADP_3_CARLSBERG-INDIA-IPO.JPG",
-      "image_alt": "Article image for Carlsberg said to near public filing for $700 million India IPO"
+      "title": "India launches state-level outreach to help MSMEs, farmers tap FTA export opportunities",
+      "summary": "Initiatives with states aim to boost utilisation of trade pacts covering 38 countries",
+      "url": "https://www.thehindubusinessline.com/economy/india-launches-state-level-outreach-to-help-msmes-farmers-tap-fta-export-opportunities/article71607022.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/gks954/article71368356.ece/alternates/LANDSCAPE_1200/BL20_Think_FTA.jpg",
+      "image_alt": "Article image for India launches state-level outreach to help MSMEs, farmers tap FTA export opportunities"
+    },
+    {
+      "category": "Money & Banking",
+      "date": "2026-10-22",
+      "title": "Barclays plans 5,000 job cuts as bank steps up AI-led efficiency",
+      "summary": "The London-based bank is simplifying its organisation and improving operational efficiency as it seeks to create capacity for investment",
+      "url": "https://www.thehindubusinessline.com/money-and-banking/barclays-plans-5000-job-cuts-as-bank-steps-up-ai-led-efficiency/article71610597.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/gynrg9/article71610630.ece/alternates/LANDSCAPE_1200/barclays.jpg",
+      "image_alt": "Article image for Barclays plans 5,000 job cuts as bank steps up AI-led efficiency"
+    },
+    {
+      "category": "Companies",
+      "date": "2026-10-22",
+      "title": "Force Motors partners with Rosmerta for vehicle scrapping",
+      "summary": "The partnership will give Force Motors' customers access to the vehicle scrapping firm's facility, providing a defined route for retiring end-of-life vehicles",
+      "url": "https://www.thehindubusinessline.com/companies/force-motors-partners-with-rosmerta-for-vehicle-scrapping/article71610551.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/we85tv/article71610562.ece/alternates/LANDSCAPE_1200/iStock-1400563511.jpg",
+      "image_alt": "Article image for Force Motors partners with Rosmerta for vehicle scrapping"
+    },
+    {
+      "category": "Economy",
+      "date": "2026-10-22",
+      "title": "VOC Port’s international container terminal gets ‘green terminal’ tag",
+      "summary": "VOC Port’s Tuticorin terminal becomes India’s first fully electrified “green” operations hub, with the pilot methanol, green hydrogen, and wind projects alongside a major capacity-boosting outer harbour investment.",
+      "url": "https://www.thehindubusinessline.com/economy/logistics/voc-ports-international-container-terminal-gets-green-terminal-tag/article71610695.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/smmdpl/article71610716.ece/alternates/LANDSCAPE_1200/9865_6_3_2026_18_18_1_3_DSC_5975.JPG",
+      "image_alt": "Article image for VOC Port’s international container terminal gets ‘green terminal’ tag"
+    },
+    {
+      "category": "Markets",
+      "date": "2026-10-22",
+      "title": "TTML narrows Q2 loss to ₹59 crore, revenue up 8%; stock surges 9% on results day",
+      "summary": "Revenue from operations rose 8.2% year-on-year to ₹309.65 crore; the stock jumped 9.26% to ₹35.03 on the NSE by early afternoon on volumes of over 9.16 crore shares",
+      "url": "https://www.thehindubusinessline.com/markets/stock-markets/ttml-narrows-q2-loss-to-59-crore-revenue-up-8-stock-surges-9-on-results-day/article71610687.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/fajf4y/article71607838.ece/alternates/LANDSCAPE_1200/FPIs-are-back_-GFGGEEU3J.4.jpg.jpg",
+      "image_alt": "Article image for TTML narrows Q2 loss to ₹59 crore, revenue up 8%; stock surges 9% on results day"
     },
     {
       "category": "Policy",
@@ -49,66 +94,21 @@
     },
     {
       "category": "Money & Banking",
-      "date": "2026-10-21",
-      "title": "SBI reports suspected exposure of customer data on the dark web",
-      "summary": "During the preliminary analysis, 3,897 customer records containing Personally Identifiable Information have been identified, per an exchange filing by the SBI",
-      "url": "https://www.thehindubusinessline.com/money-and-banking/sbi-reports-suspected-exposure-of-customer-data-on-the-dark-web/article71606269.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/jn1daz/article71606286.ece/alternates/LANDSCAPE_1200/444109850.jpg",
-      "image_alt": "Article image for SBI reports suspected exposure of customer data on the dark web"
+      "date": "2026-10-22",
+      "title": "UBS acquires 4.8% stake in India's 360 ONE WAM after warrant conversion",
+      "summary": "UBS boosted its stake in India’s 360 ONE WAM by about 4.8% after converting warrants and paying the exercise price, expanding its wealth management tie-up",
+      "url": "https://www.thehindubusinessline.com/money-and-banking/ubs-acquires-48-stake-in-indias-360-one-wam-after-warrant-conversion/article71610410.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/ltz0qv/article71610458.ece/alternates/LANDSCAPE_1200/2026-10-22T063201Z_447681170_RC2DUKASFNE4_RTRMADP_3_UBS-360-ONE-WAM-STAKE.JPG",
+      "image_alt": "Article image for UBS acquires 4.8% stake in India's 360 ONE WAM after warrant conversion"
     },
     {
       "category": "Companies",
-      "date": "2026-10-21",
-      "title": "Eternal, Swiggy Q2 Results Preview: Food delivery growth steady, Quick commerce to grow faster",
-      "summary": "Quick commerce is likely to expand faster than food delivery for both companies, though profitability trends are expected to diverge",
-      "url": "https://www.thehindubusinessline.com/companies/eternal-swiggy-q2-results-preview-food-delivery-growth-steady-quick-commerce-to-grow-faster/article71606640.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/3tc1r6/article71473548.ece/alternates/LANDSCAPE_1200/2024-09-26T155830Z_1567905059_RC2YK7A7BJK5_RTRMADP_3_SWIGGY-IPO.JPG",
-      "image_alt": "Article image for Eternal, Swiggy Q2 Results Preview: Food delivery growth steady, Quick commerce to grow faster"
-    },
-    {
-      "category": "Economy",
-      "date": "2026-10-21",
-      "title": "Rubio’s India visit puts energy security in focus as crude costs rise amid global disruptions: Kotak Neo’s Banerjee",
-      "summary": "Banerjee says India’s crude sourcing strategy would remain driven by energy diplomacy and commercial considerations",
-      "url": "https://www.thehindubusinessline.com/markets/commodities/rubios-india-visit-puts-energy-security-in-focus-as-crude-costs-rise-amid-global-disruptions-kotak-neos-banerjee/article71606543.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/jwy1uu/article71511562.ece/alternates/LANDSCAPE_1200/iStock-1024531932.jpg",
-      "image_alt": "Article image for Rubio’s India visit puts energy security in focus as crude costs rise amid global disruptions: Kotak Neo’s Banerjee"
-    },
-    {
-      "category": "Markets",
-      "date": "2026-10-21",
-      "title": "Gap-up gone: Nifty reverses early gains, 322 stocks hit 52-week lows",
-      "summary": "The Nifty Midcap 100 declined 1.7% and Nifty Smallcap 100 fell 2.4%, indicating that the selling was broader and deeper than headline index moves suggested",
-      "url": "https://www.thehindubusinessline.com/markets/gap-up-gone-nifty-reverses-early-gains-322-stocks-hit-52-week-lows/article71606718.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/i9b0nu/article71600741.ece/alternates/LANDSCAPE_1200/PO13_BS_stock_market.jpg",
-      "image_alt": "Article image for Gap-up gone: Nifty reverses early gains, 322 stocks hit 52-week lows"
-    },
-    {
-      "category": "Policy",
-      "date": "2026-10-18",
-      "title": "Govt notifies 30% cap on trade margins on 137 cancer drugs, new prices from November 9",
-      "summary": "The move is aimed at reducing the prices patients pay for these medicines",
-      "url": "https://www.thehindubusinessline.com/news/govt-notifies-30-cap-on-trade-margins-on-137-cancer-drugs-new-prices-from-november-9/article71597290.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/ucxc3f/article71597311.ece/alternates/LANDSCAPE_1200/generic%20store.jpg",
-      "image_alt": "Article image for Govt notifies 30% cap on trade margins on 137 cancer drugs, new prices from November 9"
-    },
-    {
-      "category": "Money & Banking",
-      "date": "2026-10-21",
-      "title": "PhonePe rebrands Share.Market as PhonePe Invest",
-      "summary": "Existing Share.Market users will retain their demat holdings, balances, watchlists, order history and login credentials",
-      "url": "https://www.thehindubusinessline.com/money-and-banking/phonepe-rebrands-sharemarket-as-phonepe-invest-launches-ai-portfolio-tool/article71602357.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/px4i8s/article71494518.ece/alternates/LANDSCAPE_1200/PhonePes-ShareG9QFU4ST5.4.jpg.jpg",
-      "image_alt": "Article image for PhonePe rebrands Share.Market as PhonePe Invest"
-    },
-    {
-      "category": "Economy",
-      "date": "2026-10-21",
-      "title": "Crystal Crop’s marigold R&D efforts has global firms coming to India to export the flower",
-      "summary": "The company developing orchid hybrids from local germplasm that will be cheaper than imported ones",
-      "url": "https://www.thehindubusinessline.com/economy/agri-business/crystal-crops-marigold-rd-efforts-has-global-firms-coming-to-india-to-export-the-flower/article71606415.ece",
-      "image": "https://bl-i.thgim.com/public/economy/agri-business/yhu70m/article71606412.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-10-21%20at%2010.46.59%20AM.jpeg",
-      "image_alt": "Article image for Crystal Crop’s marigold R&D efforts has global firms coming to India to export the flower"
+      "date": "2026-10-22",
+      "title": "Pirelli, Balkrishna strike tyre production deal",
+      "summary": "A ‌second phase of the agreement also involves ‌the creation of a ‌50-50 ⁠joint venture for ⁠a production plant in the country dedicated to \"high value\" car ​tyres",
+      "url": "https://www.thehindubusinessline.com/companies/pirelli-balkrishna-strike-tyre-production-deal/article71610485.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/yvtzkk/article71610524.ece/alternates/LANDSCAPE_1200/iStock-1300536010.jpg",
+      "image_alt": "Article image for Pirelli, Balkrishna strike tyre production deal"
     }
   ]
 }
