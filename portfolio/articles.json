@@ -1,7 +1,20 @@
 {
-  "updated_at": "2026-09-25T11:36:05+05:30",
-  "count": 3,
+  "updated_at": "2026-10-24T19:42:45+05:30",
+  "count": 4,
   "articles": [
+    {
+      "slug": "india2047",
+      "title": "இந்தியா @ 2047 : வளர்ந்த பாரதத்தை உருவாக்குவதில் பொதுத்துறை வங்கிகளின் பங்கு!",
+      "language": "ta",
+      "category": "Summary",
+      "date": "2026-10-24",
+      "summary": "Viksit Bharat 2047 – வங்கித்துறையின் முக்கியத்துவம்",
+      "source": "Indian Banker",
+      "source_url": "",
+      "tags": [],
+      "reading_minutes": 6,
+      "published_at": "2026-10-24T19:42:45+05:30"
+    },
     {
       "slug": "diversification",
       "title": "Diversification",
