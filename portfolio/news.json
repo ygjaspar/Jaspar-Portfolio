@@ -1,42 +1,87 @@
 {
-  "updated_at": "2026-10-25T14:04:46+05:30",
+  "updated_at": "2026-10-26T14:40:12+05:30",
   "source": "The Hindu BusinessLine",
   "articles": [
     {
       "category": "Money & Banking",
-      "date": "2026-10-25",
-      "title": "HDFC Bank introduces electric car loan, offering differential loan proportions for the body and battery of the EV",
-      "summary": "HDFC notes that the prevailing cost structure of EVs makes the acquisition cost of the vehicles higher compared to ICE (Internal Combustion Engine) vehicles due to expensive batteries",
-      "url": "https://www.thehindubusinessline.com/money-and-banking/hdfc-bankintroduces-electric-car-loan-offeringdifferential-loan-proportions-for-the-body-and-battery-of-the-ev/article71622856.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/jdhvp3/article71545842.ece/alternates/LANDSCAPE_1200/Edit_second-leaG6JG8BNNI.5.jpg.jpg",
-      "image_alt": "Article image for HDFC Bank introduces electric car loan, offering differential loan proportions for the body and battery of the EV"
+      "date": "2026-10-26",
+      "title": "Bitcoin dips below $80,000 as AI-Related market selloff deepens",
+      "summary": "The largest digital asset fell as much as 1.4% to under $79,300 before paring some losses to trade around $80,000 in afternoon trading in Asia",
+      "url": "https://www.thehindubusinessline.com/money-and-banking/cryptocurrency/bitcoin-dips-below-80000-as-ai-related-market-selloff-deepens/article71625844.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/2noim5/article71625858.ece/alternates/LANDSCAPE_1200/2026-09-15T072157Z_1210996267_RC22PGAD8HMS_RTRMADP_3_FINANCE-CRYPTOCURRENCY-COINEX.JPG",
+      "image_alt": "Article image for Bitcoin dips below $80,000 as AI-Related market selloff deepens"
     },
     {
       "category": "Companies",
-      "date": "2026-10-25",
-      "title": "L’Oreal sees ‘great turnaround’ in India market, ramps up focus on quick commerce",
-      "summary": "The French beauty major reported double-digit growth in its consumer products division in India in the September quarter and has completed the acquisition of a majority stake in Innovist.",
-      "url": "https://www.thehindubusinessline.com/companies/loreal-sees-great-turnaround-in-india-market-ramps-up-focus-on-quick-commerce/article71622755.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/nycu23/article71622797.ece/alternates/LANDSCAPE_1200/2026-10-23T092936Z_943587206_RC2GZEALLPO4_RTRMADP_3_L-OREAL-STOCKS.JPG",
-      "image_alt": "Article image for L’Oreal sees ‘great turnaround’ in India market, ramps up focus on quick commerce"
+      "date": "2026-10-26",
+      "title": "Andhra Pradesh refinery approvals likely by February 2027: BPCL",
+      "summary": "The company is eyeing at least 30% equity dilution in the refinery-cum-petrochemicals complex",
+      "url": "https://www.thehindubusinessline.com/companies/andhra-pradesh-refinery-approvals-likely-by-february-2027-bpcl/article71626116.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/j1j8xv/article71626169.ece/alternates/LANDSCAPE_1200/Petroleum_1.jpg",
+      "image_alt": "Article image for Andhra Pradesh refinery approvals likely by February 2027: BPCL"
     },
     {
       "category": "Economy",
-      "date": "2026-10-25",
-      "title": "Govt needs to incentivise domestic solar production as China eyes curbs on tech exports: Solex Chairman",
-      "summary": "If domestic cell capacity does not come up on time, the result could be a supply crunch for solar modules, project delays and pressure on tariffs, Solex Chairman Chetan Shah says",
-      "url": "https://www.thehindubusinessline.com/economy/govt-needs-to-incentivise-domestic-solar-production-as-china-eyes-curbs-on-tech-exports-solex-chairman/article71622836.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/7w3al/article71622855.ece/alternates/LANDSCAPE_1200/iStock-1038761382.jpg",
-      "image_alt": "Article image for Govt needs to incentivise domestic solar production as China eyes curbs on tech exports: Solex Chairman"
+      "date": "2026-10-26",
+      "title": "Solvent extractor survey estimates 20% decline in Gujarat’s kharif groundnut crop output",
+      "summary": "SEA made three days of extensive field visits across major districts before coming out with its estimate",
+      "url": "https://www.thehindubusinessline.com/economy/agri-business/solvent-extractor-survey-estimates-20-decline-in-gujarats-kharif-groundnut-crop-output/article71625716.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/dlrvvg/article71548554.ece/alternates/LANDSCAPE_1200/Groundnut_04.jpg",
+      "image_alt": "Article image for Solvent extractor survey estimates 20% decline in Gujarat’s kharif groundnut crop output"
     },
     {
       "category": "Markets",
+      "date": "2026-10-26",
+      "title": "Today’s Gold Rate in India October 26: Gold prices up in Delhi, Mumbai, Kolkata, Chennai, Bengaluru",
+      "summary": "22, 24 carat Gold prices up across metro cities on October 26",
+      "url": "https://www.thehindubusinessline.com/gold-rate-today/gold-price-today-in-delhi-mumbai-kolkata-chennai-bengaluru-hyderabad-pune-gold-rates-metro-cities-october-26-2026/article71626053.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/4tnwhn/article71591637.ece/alternates/LANDSCAPE_1200/2025-09-16T050653Z_65802392_RC2XGDAU2PSP_RTRMADP_3_GOLD-PRICES.JPG",
+      "image_alt": "Article image for Today’s Gold Rate in India October 26: Gold prices up in Delhi, Mumbai, Kolkata, Chennai, Bengaluru"
+    },
+    {
+      "category": "Policy",
+      "date": "2026-10-26",
+      "title": "Smartphone market slump likely to impact Mobile PLI 2.0 applications",
+      "summary": "The new scheme currently looks specifically to incentivise and support those Indian mobile phone brands with a minimum turnover of ₹10,000 crore in FY26",
+      "url": "https://www.thehindubusinessline.com/info-tech/smartphone-makers-undecided-on-new-pli-scheme-amid-market-slump/article71622575.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/8eb55a/article71583191.ece/alternates/LANDSCAPE_1200/CCI_UDHindu_KSL_USD3LV4IV_R1521815047_1_32767038-54f7-4432-8d34-44056b38d857.jpg",
+      "image_alt": "Article image for Smartphone market slump likely to impact Mobile PLI 2.0 applications"
+    },
+    {
+      "category": "Money & Banking",
       "date": "2026-10-25",
-      "title": "SEBI to come up with rules to prevent broker terminal misuse, says chairman Pandey",
-      "summary": "\"We are developing a framework to put in place safeguards to prevent misuse of trading terminals,\" Pandey said, addressing an event organised by ANMI here.",
-      "url": "https://www.thehindubusinessline.com/money-and-banking/sebi-to-come-up-with-rules-to-prevent-broker-terminal-misuse-says-chairman-pandey/article71622500.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/qw01x4/article71622504.ece/alternates/LANDSCAPE_1200/PTI10_24_2026_000088B.jpg",
-      "image_alt": "Article image for SEBI to come up with rules to prevent broker terminal misuse, says chairman Pandey"
+      "title": "Secure banking system needs secure digital infrastructure, says PM Modi",
+      "summary": "Modi highlighted the significance of the RBI’s Data Centre and Cybersecurity Training Institute in strengthening India’s digital financial infrastructure and advancing its technological self-reliance",
+      "url": "https://www.thehindubusinessline.com/money-and-banking/secure-banking-system-needs-secure-digital-infrastructure-says-pm-modi/article71623970.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/lkfjsw/article71622866.ece/alternates/LANDSCAPE_1200/Eight-web-securGDBGMLIKJ.3.jpg.jpg",
+      "image_alt": "Article image for Secure banking system needs secure digital infrastructure, says PM Modi"
+    },
+    {
+      "category": "Companies",
+      "date": "2026-10-26",
+      "title": "Indian Malt Whisky Association signs cooperation pact with Scotch Whisky Association",
+      "summary": "The trade pact could also open up opportunities for Indian single malt whiskies to gain a foothold in the UK market, with some brands having already received international recognition",
+      "url": "https://www.thehindubusinessline.com/companies/indian-malt-whisky-association-signs-cooperation-pact-with-scotch-whisky-association/article71626136.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/83zv4k/article71612768.ece/alternates/LANDSCAPE_1200/IMG_BL01_Think_agreement_3_1_9OCFNQRD.jpg",
+      "image_alt": "Article image for Indian Malt Whisky Association signs cooperation pact with Scotch Whisky Association"
+    },
+    {
+      "category": "Economy",
+      "date": "2026-10-26",
+      "title": "Festive auto sales show mixed demand trend; two-wheelers outperform passenger vehicles: Jefferies",
+      "summary": "While 2-wheeler registrations rose 16% year-on-year, passenger vehicle registrations declined 6% during the first two weeks of the festive season",
+      "url": "https://www.thehindubusinessline.com/economy/festive-auto-sales-show-mixed-demand-trend-two-wheelers-outperform-passenger-vehicles-jefferies/article71625757.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/a4jhw2/article71597309.ece/alternates/LANDSCAPE_1200/_JAI5530.JPG",
+      "image_alt": "Article image for Festive auto sales show mixed demand trend; two-wheelers outperform passenger vehicles: Jefferies"
+    },
+    {
+      "category": "Markets",
+      "date": "2026-10-26",
+      "title": "Today’s Gold Rate in India October 26: Gold prices up in Coimbatore, Nagpur, Visakhapatnam, Surat, Jaipur",
+      "summary": "22, 24 carat Gold prices up across other cities on October 26",
+      "url": "https://www.thehindubusinessline.com/gold-rate-today/gold-price-today-in-coimbatore-nagpur-visakhapatnam-surat-jaipur-lucknow-chandigarh-gold-rates-other-cities-october-26-2026/article71626054.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/i0im1u/article71596257.ece/alternates/LANDSCAPE_1200/470313897.jpg",
+      "image_alt": "Article image for Today’s Gold Rate in India October 26: Gold prices up in Coimbatore, Nagpur, Visakhapatnam, Surat, Jaipur"
     },
     {
       "category": "Policy",
@@ -50,65 +95,20 @@
     {
       "category": "Money & Banking",
       "date": "2026-10-25",
-      "title": "PNB aims to bring cost-to-income ratio below 50% this fiscal, 45% by FY29: MD Chandra",
-      "summary": "Chandra said the bank was working on two key areas — rationalisation of expenses and maximisation of profits — while sensitising its various units about the importance of improving operational efficiency.",
-      "url": "https://www.thehindubusinessline.com/money-and-banking/pnb-aims-to-bring-cost-to-income-ratio-below-50-this-fiscal-45-by-fy29-md-chandra/article71622632.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/cebdk/article71622641.ece/alternates/LANDSCAPE_1200/IMG_BL20_Ashok_Chandra_2_1_NDFF7QIN.jpg",
-      "image_alt": "Article image for PNB aims to bring cost-to-income ratio below 50% this fiscal, 45% by FY29: MD Chandra"
+      "title": "Distribution reforms: IRDAI extends deadline for feedback till October 31",
+      "summary": "A consultation paper on the proposed distribution reforms was released by the IRDAI proposing significant changes in the current regulation including caps on commissions and expenses of management",
+      "url": "https://www.thehindubusinessline.com/money-and-banking/distribution-reforms-irdai-extends-deadline-for-feedback-till-october-31/article71623228.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/dgex6i/article68195935.ece/alternates/LANDSCAPE_1200/PO05_Insruance.jpg",
+      "image_alt": "Article image for Distribution reforms: IRDAI extends deadline for feedback till October 31"
     },
     {
       "category": "Companies",
-      "date": "2026-10-25",
-      "title": "Italian fashion retailer OVS betting big on India, looks to scale up retail footprint",
-      "summary": "Plans to have 11 stores by 2028, online presence by next year",
-      "url": "https://www.thehindubusinessline.com/companies/italian-fashion-retailer-ovs-betting-big-on-india-looks-to-scale-up-retail-footprint/article71616939.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/7jfwg5/article71616938.ece/alternates/LANDSCAPE_1200/OVS%20Mumbai%20Store%20launch_%20R%20City%20Mall.jpeg",
-      "image_alt": "Article image for Italian fashion retailer OVS betting big on India, looks to scale up retail footprint"
-    },
-    {
-      "category": "Economy",
-      "date": "2026-10-25",
-      "title": "Global asset management industry to expand through 2030, profitability remains a challenge: Morgan Stanley",
-      "summary": "The report notes that global asset and wealth management industries entered 2026 at record levels, with assets under management (AUM) reaching $159 trillion, up 15% y-o-y",
-      "url": "https://www.thehindubusinessline.com/economy/global-asset-management-industry-to-expand-through-2030-profitability-remains-a-challenge-morgan-stanley/article71622704.ece",
-      "image": "https://bl-i.thgim.com/public/todays-paper/tp-markets/hgioz2/article71510522.ece/alternates/LANDSCAPE_1200/As-savings-shifGT1GJ2AS0.5.jpg.jpg",
-      "image_alt": "Article image for Global asset management industry to expand through 2030, profitability remains a challenge: Morgan Stanley"
-    },
-    {
-      "category": "Markets",
-      "date": "2026-10-25",
-      "title": "No AI, No Future? Why India’s wealth managers must adapt",
-      "summary": "AI, platform consolidation and integrated advisory services will shape the future of India’s wealth management industry, says Aprita Vinay, CEO of Spark Capital Private Wealth Management",
-      "url": "https://www.thehindubusinessline.com/markets/no-ai-no-future-why-indias-wealth-managers-must-adapt/article71615238.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/njwwed/article71615250.ece/alternates/LANDSCAPE_1200/Aprita%20Vinay.jpg",
-      "image_alt": "Article image for No AI, No Future? Why India’s wealth managers must adapt"
-    },
-    {
-      "category": "Policy",
-      "date": "2026-10-23",
-      "title": "Govt to bear ‘expensive’ certification costs for micro, small exporters under EPM: Piyush Goyal",
-      "summary": "Urges existing and new exporters across product categories and sectors to approach the Directorate General of Foreign Trade (DGFT) for certification support, saying the government would cover the entire cost.",
-      "url": "https://www.thehindubusinessline.com/economy/policy/govt-to-bear-expensive-certification-costs-for-micro-small-exporters-under-epm-piyush-goyal/article71614722.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/58mngs/article71614866.ece/alternates/LANDSCAPE_1200/472022417.jpg",
-      "image_alt": "Article image for Govt to bear ‘expensive’ certification costs for micro, small exporters under EPM: Piyush Goyal"
-    },
-    {
-      "category": "Companies",
-      "date": "2026-10-25",
-      "title": "NMDC scouts for mining assets across four continents",
-      "summary": "Industry sources say the PSU is exploring lithium, copper, cobalt and rare earth blocks in Chile, Australia, Africa, Brazil and parts of Asia",
-      "url": "https://www.thehindubusinessline.com/companies/nmdc-scouts-for-mining-assets-across-four-continents/article71622642.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/2d3qi/article71622694.ece/alternates/LANDSCAPE_1200/NMDC-raises-iroG3FF61D1S.3.jpg.jpg",
-      "image_alt": "Article image for NMDC scouts for mining assets across four continents"
-    },
-    {
-      "category": "Economy",
-      "date": "2026-10-25",
-      "title": "Two Varanasi-bound IndiGo flights diverted to Lucknow due to air show",
-      "summary": "Delhi-Varanasi (6E5025) flight and Hyderabad-Varanasi (6E915) flight diverted",
-      "url": "https://www.thehindubusinessline.com/economy/logistics/two-varanasi-bound-indigo-flights-diverted-to-lucknow-due-to-air-show/article71622729.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/s1a2sd/article71622852.ece/alternates/LANDSCAPE_1200/2025-12-18T105638Z_1458928308_RC2QAIA06YG3_RTRMADP_3_INDIGO-INDIA-ANTITRUST.JPG",
-      "image_alt": "Article image for Two Varanasi-bound IndiGo flights diverted to Lucknow due to air show"
+      "date": "2026-10-26",
+      "title": "Airtel Money reports 25% growth in first-half revenue in maiden results",
+      "summary": "The African mobile money service reported revenue of $830 million for ​the six months ⁠to end-September, up 25.1% from a year earlier",
+      "url": "https://www.thehindubusinessline.com/companies/airtel-money-reports-25-growth-in-first-half-revenue-in-maiden-results/article71626004.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/9qoj9m/article71562714.ece/alternates/LANDSCAPE_1200/2026-10-01T073536Z_652868373_RC27UNACEFJS_RTRMADP_3_AIRTEL-MONEY-IPO.JPG",
+      "image_alt": "Article image for Airtel Money reports 25% growth in first-half revenue in maiden results"
     }
   ]
 }
