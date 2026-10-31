@@ -1,42 +1,87 @@
 {
-  "updated_at": "2026-10-30T15:45:26+05:30",
+  "updated_at": "2026-10-31T15:19:37+05:30",
   "source": "The Hindu BusinessLine",
   "articles": [
     {
       "category": "Money & Banking",
-      "date": "2026-10-30",
-      "title": "Aditya Birla Capital net up 38% in Q2",
-      "summary": "Revenue jumps 31% to ₹16,545 crore; the overall lending AUM (NBFC and Housing Finance) grew by 32% year-on-year to ₹2.34 lakh crore",
-      "url": "https://www.thehindubusinessline.com/companies/aditya-birla-capital-net-up-38-in-q2/article71644526.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/m7nr5d/article71644530.ece/alternates/LANDSCAPE_1200/Aditya%20Birla%20Capital.jpg",
-      "image_alt": "Article image for Aditya Birla Capital net up 38% in Q2"
+      "date": "2026-10-31",
+      "title": "AU SFB data leak: Salesforce says no vulnerability at its end",
+      "summary": "The ScarlettGroup hacking group claims to have breached the AU SFB cyber defence system and threatened to leak sensitive customer and internal corporate data",
+      "url": "https://www.thehindubusinessline.com/money-and-banking/au-sfb-data-leak-salesforce-says-no-vulnerability-at-its-end/article71648769.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/q76c3d/article70613799.ece/alternates/LANDSCAPE_1200/2026-02-10T025639Z_708278519_RC2CE0A9AM2P_RTRMADP_3_SALESFORCE-LAYOFFS.JPG",
+      "image_alt": "Article image for AU SFB data leak: Salesforce says no vulnerability at its end"
     },
     {
       "category": "Companies",
-      "date": "2026-10-30",
-      "title": "Aether Industries Q2 PAT rises 26.62% to ₹67.99 crore",
-      "summary": "Its revenue from operations rose 23.95% during the quarter under review to ₹347.21 crore compared to ₹280.1 crore a year ago",
-      "url": "https://www.thehindubusinessline.com/companies/aether-industries-q2-pat-rises-2662-to-6799-crore/article71644533.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/qpfsio/article71644544.ece/alternates/LANDSCAPE_1200/IMG_PO29_Blue_money_2_1_BPEIIEMK.jpg",
-      "image_alt": "Article image for Aether Industries Q2 PAT rises 26.62% to ₹67.99 crore"
+      "date": "2026-10-31",
+      "title": "Maruti Suzuki Dzire crosses 3.5 million units of cumulative production",
+      "summary": "Currently manufactured at the company's Manesar facility, Dzire achieved the milestone in about 18 years and 9 months",
+      "url": "https://www.thehindubusinessline.com/companies/maruti-suzuki-dzire-crosses-35-million-units-of-cumulative-production/article71648727.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/z3hw0b/article71648748.ece/alternates/LANDSCAPE_1200/2026-07-20T050107Z_770664902_RC2DAMAW7TPM_RTRMADP_3_AUTOS-INDIA-MARUTI-SUZUKI.JPG",
+      "image_alt": "Article image for Maruti Suzuki Dzire crosses 3.5 million units of cumulative production"
     },
     {
       "category": "Economy",
-      "date": "2026-10-30",
-      "title": "PM releases ₹3,000 crore PM-KISAN instalment to over 35.38 lakh Odisha farmers",
-      "summary": "The beneficiaries in Odisha received ₹3,000 crore as part of the instalment released by the prime minister from Banaskantha in Gujarat",
-      "url": "https://www.thehindubusinessline.com/economy/agri-business/pm-releases-3000-crore-pm-kisan-instalment-to-over-3538-lakh-odisha-farmers/article71644417.ece",
-      "image": "https://bl-i.thgim.com/public/todays-paper/tp-agri-biz-and-commodity/jg1lrm/article70875475.ece/alternates/LANDSCAPE_1200/FIR-against-seeG3NFS68PM.4.jpg.jpg",
-      "image_alt": "Article image for PM releases ₹3,000 crore PM-KISAN instalment to over 35.38 lakh Odisha farmers"
+      "date": "2026-10-31",
+      "title": "Milk price hike inevitable to protect farmers amid drought: Karnataka CM Shivakumar",
+      "summary": "The Karnataka Cabinet on Thursday approved a ₹8 per litre increase in milk prices across all categories",
+      "url": "https://www.thehindubusinessline.com/economy/agri-business/milk-price-hike-inevitable-to-protect-farmers-amid-drought-karnataka-cm-shivakumar/article71648823.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/uucbpk/article71648857.ece/alternates/LANDSCAPE_1200/Karnataka-CM-waGR6GN7U9K.3.jpg.jpg",
+      "image_alt": "Article image for Milk price hike inevitable to protect farmers amid drought: Karnataka CM Shivakumar"
     },
     {
       "category": "Markets",
+      "date": "2026-10-31",
+      "title": "SEBI plans capacity-building network to strengthen independent directors",
+      "summary": "With corporate governance responsibilities expanding, the regulator wants independent directors to develop stronger capabilities and contribute more actively to business performance",
+      "url": "https://www.thehindubusinessline.com/markets/sebi-plans-capacity-building-network-to-strengthen-independent-directors/article71648849.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/fzz0w4/article71648890.ece/alternates/LANDSCAPE_1200/PTI10_31_2026_000095B.jpg",
+      "image_alt": "Article image for SEBI plans capacity-building network to strengthen independent directors"
+    },
+    {
+      "category": "Policy",
       "date": "2026-10-30",
-      "title": "Jio Financial Services promoter holding rises to 50.98% after 25 crore share allotment",
-      "summary": "The latest allotment increases the company’s paid-up equity capital to ₹6,853.14 crore, with total paid-up shares reaching 685.31 crore.",
-      "url": "https://www.thehindubusinessline.com/markets/jio-financial-services-promoter-holding-rises-to-5098-after-25-crore-share-allotment/article71644488.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/em2en/article71644498.ece/alternates/LANDSCAPE_1200/2026-10-16T042805Z_2097755044_RC23S2AB4RZR_RTRMADP_3_JIO-FINCL-SERVS-STOCKS.JPG",
-      "image_alt": "Article image for Jio Financial Services promoter holding rises to 50.98% after 25 crore share allotment"
+      "title": "Govt tightens rules for importing medicines, sets minimum shelf-life requirement",
+      "summary": "For biological drugs and radiopharmaceuticals, the government has provided a separate threshold, allowing imports where “Sixty percent of the labelled shelf-life may be allowed”",
+      "url": "https://www.thehindubusinessline.com/economy/govt-tightens-rules-for-importing-medicines-sets-minimum-shelf-life-requirement/article71645025.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/7qnudy/article71645076.ece/alternates/LANDSCAPE_1200/2023-01-04T181751Z_748570301_RC2TJY9ZUVGJ_RTRMADP_3_HEALTH-GREECE-MEDICINE.JPG",
+      "image_alt": "Article image for Govt tightens rules for importing medicines, sets minimum shelf-life requirement"
+    },
+    {
+      "category": "Money & Banking",
+      "date": "2026-10-31",
+      "title": "ATSL’s notice on re-instatement of written-down AT-1 Bonds: Yes Bank says fully committed to acting in accordance with SC Judgment",
+      "summary": "Yes Bank, as per its regulatory filing, has informed the Trustee that it is cognizant of the matters and is examining the SC Judgment and its implications in detail",
+      "url": "https://www.thehindubusinessline.com/money-and-banking/atsls-notice-on-re-instatement-of-written-down-at-1-bonds-yes-bank-says-fully-committed-to-acting-in-accordance-with-sc-judgment/article71648730.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/q623et/article71648757.ece/alternates/LANDSCAPE_1200/472294295.jpg",
+      "image_alt": "Article image for ATSL’s notice on re-instatement of written-down AT-1 Bonds: Yes Bank says fully committed to acting in accordance with SC Judgment"
+    },
+    {
+      "category": "Companies",
+      "date": "2026-10-31",
+      "title": "IGL, Northern Railway join hands to replace LPG, diesel with PNG at 22 locations",
+      "summary": "The agreement will initially supply about 3,000 SCMD of gas, replacing roughly 500 kg of LPG and 2,500 litres of diesel daily, IGL said",
+      "url": "https://www.thehindubusinessline.com/companies/igl-northern-railway-join-hands-to-replace-lpg-diesel-with-png-at-22-locations/article71648512.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/af7b0a/article71648554.ece/alternates/LANDSCAPE_1200/PNGRB-suggests-GI8GLJ7I4.4.jpg.jpg",
+      "image_alt": "Article image for IGL, Northern Railway join hands to replace LPG, diesel with PNG at 22 locations"
+    },
+    {
+      "category": "Economy",
+      "date": "2026-10-31",
+      "title": "AI Express flight crew's lapse probably led to runway incursion at Goa airport in Apr this yr: AAIB",
+      "summary": "The incident happened in the morning of April 3 involving Air India Express' Boeing 737-8 aircraft which was to operate the flight AXB 1109 from Dabolim to Delhi, and Navy's single pilot fighter jet",
+      "url": "https://www.thehindubusinessline.com/economy/logistics/ai-express-flight-crews-lapse-probably-led-to-runway-incursion-at-goa-airport-in-apr-this-yr-aaib/article71648819.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/7jbz3z/article71591480.ece/alternates/LANDSCAPE_1200/-Please-releaseGU9GKF90O.5.jpg.jpg",
+      "image_alt": "Article image for AI Express flight crew's lapse probably led to runway incursion at Goa airport in Apr this yr: AAIB"
+    },
+    {
+      "category": "Markets",
+      "date": "2026-10-31",
+      "title": "India-born financial journalist rings closing bell of London Stock Exchange",
+      "summary": "Shruti Tripathi Chopra, editor-in-chief of Financial News and Private Equity News at Dow Jones, led the closing-trading ceremony for the second edition of ‘South Asian Power Brokers’ this week",
+      "url": "https://www.thehindubusinessline.com/markets/india-born-financial-journalist-rings-closing-bell-of-london-stock-exchange/article71648829.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/cuw1bl/article71648832.ece/alternates/LANDSCAPE_1200/1761133010802.jfif",
+      "image_alt": "Article image for India-born financial journalist rings closing bell of London Stock Exchange"
     },
     {
       "category": "Policy",
@@ -49,66 +94,21 @@
     },
     {
       "category": "Money & Banking",
-      "date": "2026-10-30",
-      "title": "ADB approves $139.55 million loan to upgrade urban infrastructure, water supply in Puducherry",
-      "summary": "The Asian Development Bank approved a $139.55 million loan to Puducherry to upgrade water, sewer networks, desalination capacity, drainage, and governance",
-      "url": "https://www.thehindubusinessline.com/money-and-banking/adb-approves-13955-million-loan-to-upgrade-urban-infrastructure-water-supply-in-puducherry/article71644512.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/9dlhht/article71644531.ece/alternates/LANDSCAPE_1200/IMG_iStock-838476004_2_1_NJGD4Q9L.jpg",
-      "image_alt": "Article image for ADB approves $139.55 million loan to upgrade urban infrastructure, water supply in Puducherry"
-    },
-    {
-      "category": "Economy",
-      "date": "2026-10-30",
-      "title": "India’s daily milk yield has risen to 8 litres per animal from under 5 litres in FY14 : PM Modi",
-      "summary": "The government is also looking to expand the economic value of dairying beyond milk production by promoting the utilisation of cattle dung and agricultural residue",
-      "url": "https://www.thehindubusinessline.com/economy/agri-business/indias-milk-yield-has-risen-to-8-litres-per-animal-from-under-5-litres-in-fy14-pm-modi/article71644115.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/spnls5/article71644137.ece/alternates/LANDSCAPE_1200/PTI10_30_2026_000061B.jpg",
-      "image_alt": "Article image for India’s daily milk yield has risen to 8 litres per animal from under 5 litres in FY14 : PM Modi"
-    },
-    {
-      "category": "Markets",
-      "date": "2026-10-30",
-      "title": "M K Sons Fine Jewels IPO booked 3.50 times so far on final day",
-      "summary": "The company raised ₹82.62 crore from anchor investors by allotting 51 lakh equity shares to nine investors at ₹162 apiece",
-      "url": "https://www.thehindubusinessline.com/markets/m-k-sons-fine-jewels-ipo-booked-350-times-so-far-on-final-day/article71644423.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/vrtgtz/article71644461.ece/alternates/LANDSCAPE_1200/kimp_city3.jpg",
-      "image_alt": "Article image for M K Sons Fine Jewels IPO booked 3.50 times so far on final day"
-    },
-    {
-      "category": "Policy",
-      "date": "2026-10-28",
-      "title": "Union Cabinet approves ₹7,396 crore until FY31 for PM Viksit Gram Swaraj Yojana",
-      "summary": "As part of capacity building under the scheme, the Centre will train elected representatives, officials in the 3-tier panchayati raj system",
-      "url": "https://www.thehindubusinessline.com/economy/union-cabinet-approves-7396-crore-until-fy31-for-pm-viksit-gram-swaraj-yojana/article71636321.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/seacb0/article71636967.ece/alternates/LANDSCAPE_1200/20261028208L.jpg",
-      "image_alt": "Article image for Union Cabinet approves ₹7,396 crore until FY31 for PM Viksit Gram Swaraj Yojana"
-    },
-    {
-      "category": "Money & Banking",
-      "date": "2026-10-30",
-      "title": "North Korean hackers suspected in $6.3 billion Binance cryptocurrency theft",
-      "summary": "Blockchain intelligence firms have linked the record cryptocurrency theft to a North Korean hacking group, while Binance says it will cover losses",
-      "url": "https://www.thehindubusinessline.com/money-and-banking/cryptocurrency/north-korean-hackers-suspected-in-63-billion-binance-cryptocurrency-theft/article71644435.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/ec9eqw/article71644487.ece/alternates/LANDSCAPE_1200/2026-07-07T233417Z_1156538539_RC2B9MA8I9VU_RTRMADP_3_FINTECH-CRYPTO-QUANTUM-COMPUTING.JPG",
-      "image_alt": "Article image for North Korean hackers suspected in $6.3 billion Binance cryptocurrency theft"
+      "date": "2026-10-31",
+      "title": "IBBI amends regulations to strengthen insolvency resolution of stressed real estate projects",
+      "summary": "The amendments aim to boost the participation of homebuyers as well as strengthen oversight during the insolvency resolution process",
+      "url": "https://www.thehindubusinessline.com/money-and-banking/ibbi-amends-regulations-to-strengthen-insolvency-resolution-of-stressed-real-estate-projects/article71648592.ece",
+      "image": "https://bl-i.thgim.com/public/todays-paper/tp-news/it16/article71493144.ece/alternates/LANDSCAPE_1200/IBBI-highlightsGBFGIDVAP.5.jpg.jpg",
+      "image_alt": "Article image for IBBI amends regulations to strengthen insolvency resolution of stressed real estate projects"
     },
     {
       "category": "Companies",
-      "date": "2026-10-30",
-      "title": "GMDC profit drops 63% to ₹171 crore in July-September",
-      "summary": "Total income for July-September rose to ₹986.78 crore from ₹635.76 crore a year ago, the filing said.",
-      "url": "https://www.thehindubusinessline.com/companies/gmdc-profit-drops-63-to-171-crore-in-july-september/article71644513.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/q0izy2/article71644525.ece/alternates/LANDSCAPE_1200/PO07_Analysing.jpg",
-      "image_alt": "Article image for GMDC profit drops 63% to ₹171 crore in July-September"
-    },
-    {
-      "category": "Economy",
-      "date": "2026-10-30",
-      "title": "Diesel shortage lifts India’s exports to 12-month high in October",
-      "summary": "Diesel shipments from India hit 700,000 barrels per day (b/d) last month, compared to 620,000 b/d during September, according to Kpler data",
-      "url": "https://www.thehindubusinessline.com/markets/commodities/diesel-shortage-lifts-indias-exports-to-12-month-high-in-october/article71644141.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/yxbrdw/article71531220.ece/alternates/LANDSCAPE_1200/BL31_Think_Eco_fuel_petrol_1.jpg",
-      "image_alt": "Article image for Diesel shortage lifts India’s exports to 12-month high in October"
+      "date": "2026-10-31",
+      "title": "IGL Q2 profit plunges 93% as higher gas costs erode margins despite record sales",
+      "summary": "Net profit fell to ₹24.38 crore in the second quarter of 2026-27 from ₹372.51 crore a year earlier, despite an 8% increase in sales volumes and a 26% jump in gross turnover",
+      "url": "https://www.thehindubusinessline.com/companies/igl-q2-profit-plunges-93-as-higher-gas-costs-erode-margins-despite-record-sales/article71648476.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/1c7heh/article71648485.ece/alternates/LANDSCAPE_1200/igl-logo.png",
+      "image_alt": "Article image for IGL Q2 profit plunges 93% as higher gas costs erode margins despite record sales"
     }
   ]
 }
