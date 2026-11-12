@@ -1,33 +1,42 @@
 {
-  "updated_at": "2026-11-11T16:45:08+05:30",
+  "updated_at": "2026-11-12T17:01:40+05:30",
   "source": "The Hindu BusinessLine",
   "articles": [
     {
       "category": "Money & Banking",
-      "date": "2026-11-11",
-      "title": "Indian Overseas Bank hikes interest rates on 444-day term deposits by up to 15 bps",
-      "summary": "The 444-day non-callable term deposit, available for deposits above ₹1 crore, will now earn 6.85% per annum, up 10 basis points from 6.75%",
-      "url": "https://www.thehindubusinessline.com/money-and-banking/indian-overseas-bank-hikes-interest-rates-on-444-day-term-deposits-by-up-to-15-bps/article71689302.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/2zwie4/article71689355.ece/alternates/LANDSCAPE_1200/2501_19_2_2025_12_39_37_1_DSC_8887.JPEG",
-      "image_alt": "Article image for Indian Overseas Bank hikes interest rates on 444-day term deposits by up to 15 bps"
+      "date": "2026-11-12",
+      "title": "India’s ECB fundraising more than doubles to $37.45 billion in H1FY27 as PSUs step up borrowing",
+      "summary": "Public sector borrowers accounted for a sizeable share of overseas fundraising, while private companies also tapped foreign lenders for large sums",
+      "url": "https://www.thehindubusinessline.com/money-and-banking/indias-ecb-fundraising-more-than-doubles-to-3745-billion-in-h1fy27-as-psus-step-up-borrowing/article71693273.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/5o90t7/article71693360.ece/alternates/LANDSCAPE_1200/IMG_Bag_with_american_do_2_1_31DLC6L2.jpg",
+      "image_alt": "Article image for India’s ECB fundraising more than doubles to $37.45 billion in H1FY27 as PSUs step up borrowing"
     },
     {
       "category": "Companies",
-      "date": "2026-11-11",
-      "title": "Sathlokhar Synergys E&C Q2 net profit more than doubles to ₹29 crore",
-      "summary": "Strong project execution, improved margins and fresh orders supported the company’s September-quarter performance and strengthened its growth outlook",
-      "url": "https://www.thehindubusinessline.com/companies/sathlokhar-synergys-ec-q2-net-profit-more-than-doubles-to-29-crore/article71688846.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/6c31xq/article71689123.ece/alternates/LANDSCAPE_1200/G%20THIYAGU%20-%20SATHLOKHAR.jpg",
-      "image_alt": "Article image for Sathlokhar Synergys E&C Q2 net profit more than doubles to ₹29 crore"
+      "date": "2026-11-12",
+      "title": "TV Narendran appointed Tata International Chairman; Noel Tata named Chairman Emeritus",
+      "summary": "The appointments take effect on November 12, alongside separate board-level changes at Tata Investment Corporation, where two new leadership roles are announced",
+      "url": "https://www.thehindubusinessline.com/companies/tv-narendran-appointed-tata-international-chairman-noel-tata-named-chairman-emeritus/article71693438.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/lnn0ho/article71693446.ece/alternates/LANDSCAPE_1200/IMG_BL01_TV_Narendran_2_1_TJGB4PON.jpg",
+      "image_alt": "Article image for TV Narendran appointed Tata International Chairman; Noel Tata named Chairman Emeritus"
     },
     {
       "category": "Economy",
-      "date": "2026-11-11",
-      "title": "Argentina, Malaysia overtake Indonesia as top veg oil exporters to India",
-      "summary": "Argentina became the largest vegetable oil supplier this year to India, fuelled by demand for soybean oil and cuts to export taxes increasing its competitiveness",
-      "url": "https://www.thehindubusinessline.com/economy/agri-business/argentina-malaysia-overtake-indonesia-as-top-veg-oil-exporters-to-india/article71689201.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/5mjrtr/article71689397.ece/alternates/LANDSCAPE_1200/IMG_iStock-1020596744_2_1_0CEGA375.jpg",
-      "image_alt": "Article image for Argentina, Malaysia overtake Indonesia as top veg oil exporters to India"
+      "date": "2026-11-12",
+      "title": "India’s retail inflation rises to 6.09% in October, breaches RBI’s upper tolerance limit",
+      "summary": "Higher food costs, particularly for vegetables, pushed consumer prices up, adding to the monetary policy challenge ahead of the December review.",
+      "url": "https://www.thehindubusinessline.com/economy/indias-retail-inflation-rises-to-609-in-october-breaches-rbis-upper-tolerance-limit/article71693402.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/1tt05m/article71693417.ece/alternates/LANDSCAPE_1200/IMG_iStock-1488883191.jp_2_1_55C17SK5.jpg",
+      "image_alt": "Article image for India’s retail inflation rises to 6.09% in October, breaches RBI’s upper tolerance limit"
+    },
+    {
+      "category": "Markets",
+      "date": "2026-11-12",
+      "title": "SBI Mutual Fund launches defence ETF fund of funds; NFO opens November 16",
+      "summary": "The scheme will primarily invest in the underlying defence ETF, tracking companies linked to India’s defence sector and its supporting industries",
+      "url": "https://www.thehindubusinessline.com/markets/sbi-mutual-fund-launches-defence-etf-fund-of-funds-nfo-opens-november-16/article71693416.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/mrhz7d/article71693485.ece/alternates/LANDSCAPE_1200/Debasish%20Mishra%20SBI%20MF.jpg",
+      "image_alt": "Article image for SBI Mutual Fund launches defence ETF fund of funds; NFO opens November 16"
     },
     {
       "category": "Policy",
@@ -40,30 +49,39 @@
     },
     {
       "category": "Money & Banking",
-      "date": "2026-11-11",
-      "title": "Shriram General Insurance takes ‘baby steps’ into health insurance: MD & CEO Anil Aggarwal",
-      "summary": "Aggarwal says, “Health portfolio is the largest portfolio among the industry, and we are aiming that we will write around maybe ₹100 crore in individual policies over a period of two years.”",
-      "url": "https://www.thehindubusinessline.com/money-and-banking/shriram-general-insurance-takes-baby-steps-into-health-insurance-md-ceo-anil-aggarwal/article71689016.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/yrq1zy/article71318126.ece/alternates/LANDSCAPE_1200/anilshriram_28.jpg",
-      "image_alt": "Article image for Shriram General Insurance takes ‘baby steps’ into health insurance: MD & CEO Anil Aggarwal"
+      "date": "2026-11-12",
+      "title": "Bitcoin retreats as Nvidia turmoil weighs on risk appetite",
+      "summary": "Bitcoin falls as much as 1.4% as other cryptocurrencies also weaken along with US stock futures",
+      "url": "https://www.thehindubusinessline.com/money-and-banking/cryptocurrency/bitcoin-retreats-as-nvidia-turmoil-weighs-on-risk-appetite/article71693195.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/yjxbqz/article71693394.ece/alternates/LANDSCAPE_1200/iStock-924986096.jpg",
+      "image_alt": "Article image for Bitcoin retreats as Nvidia turmoil weighs on risk appetite"
     },
     {
       "category": "Companies",
-      "date": "2026-11-11",
-      "title": "IndiGo shares surge past analyst target as falling crude, Q2 beat draw buyers",
-      "summary": "The stock opened at ₹5,520.40 against a previous close of ₹5,430 and has already breached the ₹5,550 target price set by Anand Rathi Securities.",
-      "url": "https://www.thehindubusinessline.com/markets/stock-markets/indigo-surges-past-analyst-target-as-crude-slide-and-q2-beat-draw-buyers/article71688766.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/iambuf/article71665495.ece/alternates/LANDSCAPE_1200/iStock-2238058472.jpg",
-      "image_alt": "Article image for IndiGo shares surge past analyst target as falling crude, Q2 beat draw buyers"
+      "date": "2026-11-12",
+      "title": "eClerx acquires RegEdge to bolster regulatory and compliance capabilities",
+      "summary": "The acquisition expands eClerx’s footprint in the financial services sector, where it already provides AI-powered analytics and digital operations to major institutions",
+      "url": "https://www.thehindubusinessline.com/companies/eclerx-acquires-regedge-to-bolster-regulatory-and-compliance-capabilities/article71693366.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/983190/article71693428.ece/alternates/LANDSCAPE_1200/PO24_Deal.jpg",
+      "image_alt": "Article image for eClerx acquires RegEdge to bolster regulatory and compliance capabilities"
+    },
+    {
+      "category": "Economy",
+      "date": "2026-11-12",
+      "title": "FY27 direct tax target of ₹26.97 lakh crore achievable, but second-half collections key: Experts",
+      "summary": "The Centre will need stronger collections in the coming months, with corporate tax receipts and advance tax payments shaping the year-end outcome",
+      "url": "https://www.thehindubusinessline.com/economy/fy27-direct-tax-target-of-2697-lakh-crore-achievable-but-second-half-collections-key-experts/article71693013.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/vietxy/article71693301.ece/alternates/LANDSCAPE_1200/iStock-952092134.jpg",
+      "image_alt": "Article image for FY27 direct tax target of ₹26.97 lakh crore achievable, but second-half collections key: Experts"
     },
     {
       "category": "Markets",
-      "date": "2026-11-11",
-      "title": "Indices hold gains at noon; M&M, IndiGo top Nifty charts as IT stocks drag",
-      "summary": "Sensex was trading at 81,961.89, up 855.24 points or 1.05%, and the Nifty 50 was at 25,270.25, up 225.60 points or 0.90%, as of 1.11 PM",
-      "url": "https://www.thehindubusinessline.com/markets/indices-hold-gains-at-noon-mm-indigo-top-nifty-charts-as-it-stocks-drag/article71688800.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/9a69d7/article71687174.ece/alternates/LANDSCAPE_1200/iStock-1323542329%208.jpg",
-      "image_alt": "Article image for Indices hold gains at noon; M&M, IndiGo top Nifty charts as IT stocks drag"
+      "date": "2026-11-12",
+      "title": "Sensex today | Stock Market Highlights: Markets extend gains for 3rd day; Sensex ends above 81,900 on FII inflows, lower crude oil",
+      "summary": "Sensex, Nifty, Share Prices Highlights: Benchmark equity indices Sensex and Nifty ended marginally higher on Thursday, taking their winning run to the third straight day, amid sustained foreign fund inflows and lower crude oil prices.",
+      "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-12-november-2026/article71689385.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/6ysij7/article71689387.ece/alternates/LANDSCAPE_1200/finance.jpg",
+      "image_alt": "Article image for Sensex today | Stock Market Highlights: Markets extend gains for 3rd day; Sensex ends above 81,900 on FII inflows, lower crude oil"
     },
     {
       "category": "Policy",
@@ -76,39 +94,21 @@
     },
     {
       "category": "Money & Banking",
-      "date": "2026-11-11",
-      "title": "El Nino phenomenon: States must desist from loan waiver, says SBI’s ERD",
-      "summary": "With potential agricultural production losses estimated at 3.86 crore tonnes, SBI’s Economic Research Department suggests that states approach banks for loan restructuring, with governments sharing part of the cost.",
-      "url": "https://www.thehindubusinessline.com/money-and-banking/el-nino-phenomenon-states-must-desist-from-loan-waiver-says-sbis-erd/article71688911.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/ra0sp7/article71612074.ece/alternates/LANDSCAPE_1200/iStock-1205581593.jpg",
-      "image_alt": "Article image for El Nino phenomenon: States must desist from loan waiver, says SBI’s ERD"
+      "date": "2026-11-12",
+      "title": "Aditya Birla Capital opens 100th Gold Loan branch, enters Mumbai market",
+      "summary": "Aditya Birla Capital’s Gold Loan business reported an AUM of ₹200 crore as of September 30, 2026",
+      "url": "https://www.thehindubusinessline.com/money-and-banking/aditya-birla-capital-opens-100th-gold-loan-branch-enters-mumbai-market/article71693180.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/940657/article71693209.ece/alternates/LANDSCAPE_1200/Aditya%20Birla%20Capital.jpg",
+      "image_alt": "Article image for Aditya Birla Capital opens 100th Gold Loan branch, enters Mumbai market"
     },
     {
       "category": "Companies",
-      "date": "2026-11-11",
-      "title": "Raana Semiconductors signs pre-purchase order to supply ingot machines to Swelect Energy",
-      "summary": "Raana will supply 12-inch Czochralski systems for Swelect’s planned 1GW ingot facility, supporting the development of an indigenous supply chain for silicon ingots and wafers.",
-      "url": "https://www.thehindubusinessline.com/companies/raana-semiconductors-signs-pre-purchase-order-to-supply-ingot-machines-to-swelect-energy/article71688944.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/teb4fk/article71688943.ece/alternates/LANDSCAPE_1200/raana.jpg",
-      "image_alt": "Article image for Raana Semiconductors signs pre-purchase order to supply ingot machines to Swelect Energy"
-    },
-    {
-      "category": "Economy",
-      "date": "2026-11-11",
-      "title": "IMD update: Weather alert raised to depression, heavy rain likely for TN, Puducherry",
-      "summary": "Evolving Bay system presents two distinct weather scenarios: an expansive spell of rain, thunderstorms over South Peninsula and prospects of a powerful storm tracking elsewhere",
-      "url": "https://www.thehindubusinessline.com/economy/agri-business/imd-update-isolated-heavy-rain-likely-for-tn-puducherry-as-fresh-low-brews/article71688439.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/s5r35p/article71689196.ece/alternates/LANDSCAPE_1200/MnsnNov11pm.jpg",
-      "image_alt": "Article image for IMD update: Weather alert raised to depression, heavy rain likely for TN, Puducherry"
-    },
-    {
-      "category": "Markets",
-      "date": "2026-11-11",
-      "title": "Sensex today | Stock Market Highlights: Sensex closes 772 pts higher, Nifty ends above 25,250; M&M, IndiGo top gainers",
-      "summary": "Sensex, Nifty, Share Prices Highlights: Benchmark indices held on to most of their opening gains to close higher on Wednesday, with the Sensex ending the session at 81,879.40, up 772.75 pts or 0.95 per cent, and the Nifty 50 settling at 25,255.05, up 210.40 pts or 0.84 per cent. Markets had opened sharply higher after the Diwali holiday, with the Nifty gap-opening near 25,338 and Bank Nifty near 60,525, before trimming some gains through the morning session.",
-      "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-11th-november-2026/article71682389.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/bxb7e7/article71276756.ece/alternates/LANDSCAPE_1200/iStock-1035988708.jpg",
-      "image_alt": "Article image for Sensex today | Stock Market Highlights: Sensex closes 772 pts higher, Nifty ends above 25,250; M&M, IndiGo top gainers"
+      "date": "2026-11-12",
+      "title": "Cosmo First eyes all-time high US exports from film business this fiscal on lower tariffs",
+      "summary": "Cosmo Films, the group’s packaging films business, is India’s largest flexible packaging film producer and holds major market share in the country’s speciality films segment",
+      "url": "https://www.thehindubusinessline.com/companies/cosmo-first-eyes-all-time-high-us-exports-from-film-business-this-fiscal-on-lower-tariffs/article71693324.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/4jh4j7/article71693400.ece/alternates/LANDSCAPE_1200/Picture%20of%20Pankaj%20Poddar%20-%20Group%20CEO%20Cosmo%20First.jpg",
+      "image_alt": "Article image for Cosmo First eyes all-time high US exports from film business this fiscal on lower tariffs"
     }
   ]
 }
