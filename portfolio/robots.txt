@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jaspar-yg.onrender.com/sitemap.xml
