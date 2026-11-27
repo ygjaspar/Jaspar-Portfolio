@@ -1,42 +1,87 @@
 {
-  "updated_at": "2026-11-26T18:24:54+05:30",
+  "updated_at": "2026-11-27T18:19:37+05:30",
   "source": "The Hindu BusinessLine",
   "articles": [
     {
       "category": "Money & Banking",
-      "date": "2026-11-26",
-      "title": "SC orders HDFC, ICICI banks to grant prosecution sanctions in subvention fraud cases",
-      "summary": "The direction came as the CBI reported progress in investigations into alleged builder-bank links that left homebuyers facing loan recovery proceedings.",
-      "url": "https://www.thehindubusinessline.com/money-and-banking/sc-orders-hdfc-icici-banks-to-grant-prosecution-sanctions-in-subvention-fraud-cases/article71746160.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/uwm71n/article71746254.ece/alternates/LANDSCAPE_1200/TH23-KDR-Why-noG0VGRB8AB.3.jpg.jpg",
-      "image_alt": "Article image for SC orders HDFC, ICICI banks to grant prosecution sanctions in subvention fraud cases"
+      "date": "2026-11-27",
+      "title": "RBI cuts banks’ minimum daily CRR maintenance requirement to 90% from December 1",
+      "summary": "The central bank’s decision reverses its October tightening, when it raised the maintenance threshold amid surplus liquidity in the banking system.",
+      "url": "https://www.thehindubusinessline.com/money-and-banking/rbi-cuts-banks-minimum-daily-crr-maintenance-requirement-to-90-from-december-1/article71750640.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/33dk72/article71684761.ece/alternates/LANDSCAPE_1200/2026-11-04T062613Z_763361502_RC2V80AOJ32P_RTRMADP_3_INDIA-RBI-MARKETS-COMITTEEE.JPG",
+      "image_alt": "Article image for RBI cuts banks’ minimum daily CRR maintenance requirement to 90% from December 1"
     },
     {
       "category": "Companies",
-      "date": "2026-11-26",
-      "title": "IWTMA, Germany’s BWE ink MoU to advance wind turbine repowering in India",
-      "summary": "The collaboration will establish a framework for bilateral knowledge exchange on policy and regulatory frameworks",
-      "url": "https://www.thehindubusinessline.com/companies/iwtma-germanys-bwe-ink-mou-to-advance-wind-turbine-repowering-in-india/article71746388.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/gdq6vj/article71746581.ece/alternates/LANDSCAPE_1200/Indian%20Wind%20Farm.png",
-      "image_alt": "Article image for IWTMA, Germany’s BWE ink MoU to advance wind turbine repowering in India"
+      "date": "2026-11-27",
+      "title": "S&P downgrades Tata Motors PV on JLRs weak performance",
+      "summary": "The rating agency says it lowered the long-term credit rating on Tata Motors PV and subsidiary TML Holdings Pte Ltd to BBB-' with a stable outlook from 'BBB' with a negative outlook",
+      "url": "https://www.thehindubusinessline.com/companies/sp-downgrades-tata-motors-pv-on-jlrs-weak-performance/article71750380.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/hmfo98/article71750658.ece/alternates/LANDSCAPE_1200/2026-11-24T161534Z_1503097526_RC2JPDAR2OZP_RTRMADP_3_AUTOFILE.JPG",
+      "image_alt": "Article image for S&P downgrades Tata Motors PV on JLRs weak performance"
     },
     {
       "category": "Economy",
-      "date": "2026-11-26",
-      "title": "Bhopal to host regenerative agriculture, soybean entrepreneurship events on December 4 and 5",
-      "summary": "It is jointly organised by Solidaridad, ICAR-Indian Institute of Soil Science and the Solvent Extractors’ Association of India as part of World Soil Day",
-      "url": "https://www.thehindubusinessline.com/economy/agri-business/bhopal-to-host-regenerative-agriculture-soybean-entrepreneurship-events-on-december-4-and-5/article71746159.ece",
-      "image": "https://bl-i.thgim.com/public/todays-paper/tp-agri-biz-and-commodity/ko4dwa/article71525767.ece/alternates/LANDSCAPE_1200/Edible-oils-dutGD1GJKRP5.4.jpg.jpg",
-      "image_alt": "Article image for Bhopal to host regenerative agriculture, soybean entrepreneurship events on December 4 and 5"
+      "date": "2026-11-27",
+      "title": "Air India urges pilots to improve fuel efficiency amid cost-saving push",
+      "summary": "Internal communication outlines operational measures as group pursues Rs 6,000-crore savings programme",
+      "url": "https://www.thehindubusinessline.com/economy/logistics/air-india-urges-pilots-to-improve-fuel-efficiency-amid-cost-saving-push/article71750621.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/6e32ag/article71750802.ece/alternates/LANDSCAPE_1200/2026-11-03T093717Z_1794536609_RC26GOACQZYH_RTRMADP_3_AIRINDIA-CEO.JPG",
+      "image_alt": "Article image for Air India urges pilots to improve fuel efficiency amid cost-saving push"
     },
     {
       "category": "Markets",
+      "date": "2026-11-27",
+      "title": "India’s forex reserves fall by $4.44 billion to $700.90 billion, RBI data shows",
+      "summary": "The latest decline follows a $14.205-billion fall in the previous week, extending the downward trend from September’s record reserve level",
+      "url": "https://www.thehindubusinessline.com/markets/forex/indias-forex-reserves-fall-by-444-billion-to-70090-billion-rbi-data-shows/article71750664.ece",
+      "image": "https://bl-i.thgim.com/public/migration_catalog/8louhu-bl09SMU-jrG9P3NDMC51BL10DOLLAR2jpg/alternates/LANDSCAPE_1200/bl09SMU-jrG9P3NDMC51BL10DOLLAR2jpg",
+      "image_alt": "Article image for India’s forex reserves fall by $4.44 billion to $700.90 billion, RBI data shows"
+    },
+    {
+      "category": "Policy",
       "date": "2026-11-26",
-      "title": "IT stocks surge 3.6% as Nifty edges up; rupee slips to 92.44",
-      "summary": "Nifty 50 closed at 25,884.50, up 65.25 points or 0.25% and Sensex ended at 84,328.59, up 390.31 points or 0.46%",
-      "url": "https://www.thehindubusinessline.com/markets/it-stocks-surge-36-as-nifty-edges-up-rupee-slips-to-9244/article71746454.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/wvg8bt/article71745960.ece/alternates/LANDSCAPE_1200/iStock-909822252.jpg",
-      "image_alt": "Article image for IT stocks surge 3.6% as Nifty edges up; rupee slips to 92.44"
+      "title": "Finance Ministry strengthens pension grievance redressal with senior-level monthly reviews",
+      "summary": "Senior officials are stepping up oversight of pension complaints, with monthly reviews of closed cases forming part of the monitoring mechanism.",
+      "url": "https://www.thehindubusinessline.com/economy/policy/finance-ministry-strengthens-pension-grievance-redressal-with-senior-level-monthly-reviews/article71747711.ece",
+      "image": "https://bl-i.thgim.com/public/migration_catalog/article18216057.ece/alternates/LANDSCAPE_1200/BL18PENSION1",
+      "image_alt": "Article image for Finance Ministry strengthens pension grievance redressal with senior-level monthly reviews"
+    },
+    {
+      "category": "Money & Banking",
+      "date": "2026-11-27",
+      "title": "RBI trims sale of 2029 bond as rising bets on hefty rate hike lift yields",
+      "summary": "‌Reserve Bank of India accepted ‌bids ⁠worth ₹3,680 crore in ⁠the planned ₹9,000 crore auction of the 6.20% 2029 paper",
+      "url": "https://www.thehindubusinessline.com/money-and-banking/rbi-trims-sale-of-2029-bond-as-rising-bets-on-hefty-rate-hike-lift-yields/article71750177.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/zhuad5/article71742884.ece/alternates/LANDSCAPE_1200/No-exemption-onG4NGQBQ77.4.jpg.jpg",
+      "image_alt": "Article image for RBI trims sale of 2029 bond as rising bets on hefty rate hike lift yields"
+    },
+    {
+      "category": "Companies",
+      "date": "2026-11-27",
+      "title": "Tata Sons’ shareholder charities seek to halt board meeting over chairman’s reappointment",
+      "summary": "The legal challenge intensifies an internal governance dispute, with Tata Sons’ Monday meeting expected to consider the company’s next steps towards listing.",
+      "url": "https://www.thehindubusinessline.com/companies/tata-sons-shareholder-charities-seek-to-halt-board-meeting-over-chairmans-reappointment/article71750586.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/mmqng9/article71734511.ece/alternates/LANDSCAPE_1200/Noel-Tata-seeksGVRGND2B6.4.jpg.jpg",
+      "image_alt": "Article image for Tata Sons’ shareholder charities seek to halt board meeting over chairman’s reappointment"
+    },
+    {
+      "category": "Economy",
+      "date": "2026-11-27",
+      "title": "CII to establish artisan development centre in Varanasi, to support 75,000 artisans over 5 years",
+      "summary": "The bienalle will launch initiatives like CII Artisan Development and Design Centre and the Varanasi Healthy Weavers Initiative, the industry body says",
+      "url": "https://www.thehindubusinessline.com/economy/cii-to-establish-artisan-development-centre-in-varanasi-to-support-75000-artisans-over-5-years/article71750320.ece",
+      "image": "https://bl-i.thgim.com/public/todays-paper/tp-opinion/8we6a2/article70319327.ece/alternates/LANDSCAPE_1200/Edit_second-leaGTNF6P1EL.4.jpg.jpg",
+      "image_alt": "Article image for CII to establish artisan development centre in Varanasi, to support 75,000 artisans over 5 years"
+    },
+    {
+      "category": "Markets",
+      "date": "2026-11-27",
+      "title": "SEBI clarifies 65-year age limit for stock exchange MDs remains unchanged",
+      "summary": "The clarification follows reports interpreting the regulator’s November 20 consultation paper as proposing changes to the age eligibility of market institution heads",
+      "url": "https://www.thehindubusinessline.com/markets/sebi-clarifies-65-year-age-limit-for-stock-exchange-mds-remains-unchanged/article71750657.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/fgeybr/article71735468.ece/alternates/LANDSCAPE_1200/2025-10-31T064805Z_718570409_RC2LJDALWBHD_RTRMADP_3_MCX-OUTAGES.JPG",
+      "image_alt": "Article image for SEBI clarifies 65-year age limit for stock exchange MDs remains unchanged"
     },
     {
       "category": "Policy",
@@ -49,66 +94,21 @@
     },
     {
       "category": "Money & Banking",
-      "date": "2026-11-26",
-      "title": "Bharat Value Fund invests ₹150 crore in Finnable’s ₹405-crore Series C round",
-      "summary": "Fund’s first investment in fintech and NBFC sector; Finnable’s AUM crosses ₹4,600 crore",
-      "url": "https://www.thehindubusinessline.com/money-and-banking/bharat-value-fund-invests-150-crore-in-finnables-405-crore-series-c-round/article71746162.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/p4f571/article71194811.ece/alternates/LANDSCAPE_1200/IMG_venture_capital_fund_2_1_57DQ2F9T.jpg",
-      "image_alt": "Article image for Bharat Value Fund invests ₹150 crore in Finnable’s ₹405-crore Series C round"
+      "date": "2026-11-27",
+      "title": "MSMEs account for 31% of India’s GDP; RBI plans stronger credit infrastructure",
+      "summary": "Micro, small and medium enterprises play a significant role in India’s economy, manufacturing, merchandise exports and employment generation.",
+      "url": "https://www.thehindubusinessline.com/money-and-banking/msmes-account-for-31-of-indias-gdp-rbi-plans-stronger-credit-infrastructure/article71750305.ece",
+      "image": "https://bl-i.thgim.com/public/incoming/dwiib6/article71556883.ece/alternates/LANDSCAPE_1200/20261007069L.jpg",
+      "image_alt": "Article image for MSMEs account for 31% of India’s GDP; RBI plans stronger credit infrastructure"
     },
     {
       "category": "Companies",
-      "date": "2026-11-26",
-      "title": "Adani Enterprises and Adani Power plan public bond sale to raise at least $220 million",
-      "summary": "Each company is expected to raise between ₹1,000 crore and ₹2,000 crore",
-      "url": "https://www.thehindubusinessline.com/companies/adani-enterprises-and-adani-power-plan-public-bond-sale-to-raise-at-least-220-million/article71745193.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/d2idy7/article71727617.ece/alternates/LANDSCAPE_1200/2025-02-05T080722Z_832864540_RC282Y9QV6GQ_RTRMADP_3_AWL-OUTLOOK.JPG",
-      "image_alt": "Article image for Adani Enterprises and Adani Power plan public bond sale to raise at least $220 million"
-    },
-    {
-      "category": "Economy",
-      "date": "2026-11-26",
-      "title": "Digital media accounts for 98% of advertising violations, Meta leads with 73.4%",
-      "summary": "The advertising watchdog flagged widespread misleading claims, prohibited promotions and inadequate disclosures, calling for greater accountability across digital advertising platforms",
-      "url": "https://www.thehindubusinessline.com/economy/digital-media-accounts-for-98-of-advertising-violations-meta-leads-with-734/article71742023.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/9eg2sx/article71742131.ece/alternates/LANDSCAPE_1200/IMG_IMG_BL05_MOBILEUSERS_2_1_Q0A24AAT.jpg",
-      "image_alt": "Article image for Digital media accounts for 98% of advertising violations, Meta leads with 73.4%"
-    },
-    {
-      "category": "Markets",
-      "date": "2026-11-26",
-      "title": "NSE overtakes Deutsche Boerse, LSE to become world’s third-largest listed exchange at $64.1 billion",
-      "summary": "The Indian exchange has strengthened its global standing, moving ahead of two major European bourses following a sharp rise in its shares",
-      "url": "https://www.thehindubusinessline.com/markets/nse-overtakes-deutsche-boerse-lse-to-become-worlds-third-largest-listed-exchange-at-641-billion/article71746352.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/rvk92n/article71746500.ece/alternates/LANDSCAPE_1200/2026-11-25T061046Z_1787541317_RC2EPAADL3WD_RTRMADP_3_CHARTERED-SPEED-IPO.JPG",
-      "image_alt": "Article image for NSE overtakes Deutsche Boerse, LSE to become world’s third-largest listed exchange at $64.1 billion"
-    },
-    {
-      "category": "Policy",
-      "date": "2026-11-22",
-      "title": "India weighs curbs on non-Basmati rice exports to cool domestic prices",
-      "summary": "A 30% export duty and minimum export price are among the options being considered, with a temporary export ban reserved as a last resort.",
-      "url": "https://www.thehindubusinessline.com/markets/commodities/india-weighs-curbs-on-non-basmati-rice-exports-to-cool-domestic-prices/article71728177.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/z8rinc/article71730644.ece/alternates/LANDSCAPE_1200/IMG_India-under-WTO_GTSC_2_1_90DFFN4A.jpg",
-      "image_alt": "Article image for India weighs curbs on non-Basmati rice exports to cool domestic prices"
-    },
-    {
-      "category": "Money & Banking",
-      "date": "2026-11-26",
-      "title": "Indian banks to sustain 15% loan growth in FY28, says Fitch Ratings",
-      "summary": "Solid economic growth and improved operating efficiency are expected to support lenders, even as asset-quality pressures rise modestly across some segments",
-      "url": "https://www.thehindubusinessline.com/money-and-banking/indian-banks-to-sustain-15-loan-growth-in-fy28-says-fitch-ratings/article71745550.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/i4d2xi/article71732288.ece/alternates/LANDSCAPE_1200/BL2311_Banking_Second.jpg",
-      "image_alt": "Article image for Indian banks to sustain 15% loan growth in FY28, says Fitch Ratings"
-    },
-    {
-      "category": "Companies",
-      "date": "2026-11-26",
-      "title": "Hindustan Zinc, IIT Madras develop zinc-air battery-powered electric three-wheeler prototype",
-      "summary": "The research collaboration has moved from laboratory development to vehicle-level testing, exploring new uses for India’s abundant zinc resources",
-      "url": "https://www.thehindubusinessline.com/companies/hindustan-zinc-iit-madras-develop-zinc-air-battery-powered-electric-three-wheeler-prototype/article71746157.ece",
-      "image": "https://bl-i.thgim.com/public/incoming/cy2ez1/article71608215.ece/alternates/LANDSCAPE_1200/Text-16-10-2026G3LGM9G8S.4.jpg.jpg",
-      "image_alt": "Article image for Hindustan Zinc, IIT Madras develop zinc-air battery-powered electric three-wheeler prototype"
+      "date": "2026-11-27",
+      "title": "Britannia Industries CMO Puneet Das resigns within 10 months of joining",
+      "summary": "Das, who joined Britannia in February 2026, will be relieved from the company's services with effect from the close of business on December 9, 2026",
+      "url": "https://www.thehindubusinessline.com/companies/britannia-industries-cmo-puneet-das-resigns-within-10-months-of-joining/article71750192.ece",
+      "image": "https://bl-i.thgim.com/public/todays-paper/tp-others/tp-states/79mzhp/article69078210.ece/alternates/LANDSCAPE_1200/Britannia-askedGF6DQTU9L.5.jpg.jpg",
+      "image_alt": "Article image for Britannia Industries CMO Puneet Das resigns within 10 months of joining"
     }
   ]
 }
